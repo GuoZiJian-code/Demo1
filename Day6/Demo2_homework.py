@@ -14,3 +14,4 @@ def getAllFileInDir(pathStr):
 
 if __name__ in '__main__':
     getAllFileInDir(r"E:\Learn\1-60")
+    os.rmdir(os.path.join(os.getcwd(),r"Atest/Atest-1"))
