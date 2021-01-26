@@ -1,0 +1,14 @@
+#coding:GBK
+print('Hello Python')
+'''
+¶à
+ÐÐ
+×¢
+ÊÍ
+'''
+a = 'aaaa'
+print(type(a),a)
+a = bool(a)
+print(type(a),a)
+
+
