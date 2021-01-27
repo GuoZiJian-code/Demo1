@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c4c8ad7c-9ab9-42c2-b926-04c0e12e297d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day6/Demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day6/Demo3_try_except.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day6/Demo3_try_except.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day6/Demo3_try_except.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day6/Error.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Day6/Error.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -218,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611718727400</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="学习了异常处理">
+      <created>1611759523187</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611759523187</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,17 +247,18 @@
     <MESSAGE value="新增Day6/Demo3" />
     <MESSAGE value="删除Day6/Demo3.py" />
     <MESSAGE value="测试Git" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试Git" />
+    <MESSAGE value="学习了异常处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习了异常处理" />
   </component>
   <component name="WindowStateProjectService">
     <state x="657" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611759320395">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
     <state x="657" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1854.1080@0.0.1854.1080" timestamp="1611759320395" />
-    <state x="565" y="134" key="CommitChangelistDialog2" timestamp="1611718726435">
+    <state x="565" y="134" key="CommitChangelistDialog2" timestamp="1611759521814">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state x="565" y="134" key="CommitChangelistDialog2/0.0.1854.1080@0.0.1854.1080" timestamp="1611718726435" />
+    <state x="565" y="134" key="CommitChangelistDialog2/0.0.1854.1080@0.0.1854.1080" timestamp="1611759521814" />
     <state x="384" y="341" key="FileChooserDialogImpl" timestamp="1611676076757">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
@@ -258,25 +267,25 @@
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
     <state x="802" y="431" width="273" height="218" key="Github.ShareDialog/0.0.1854.1080@0.0.1854.1080" timestamp="1611677066869" />
-    <state width="1833" height="295" key="GridCell.Tab.0.bottom" timestamp="1611759455066">
+    <state width="1833" height="295" key="GridCell.Tab.0.bottom" timestamp="1611760374308">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="295" key="GridCell.Tab.0.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1611759455066" />
+    <state width="1833" height="295" key="GridCell.Tab.0.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1611760374308" />
     <state width="1837" height="295" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1603215634876" />
-    <state width="1833" height="295" key="GridCell.Tab.0.center" timestamp="1611759455065">
+    <state width="1833" height="295" key="GridCell.Tab.0.center" timestamp="1611760374307">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="295" key="GridCell.Tab.0.center/0.0.1854.1080@0.0.1854.1080" timestamp="1611759455065" />
+    <state width="1833" height="295" key="GridCell.Tab.0.center/0.0.1854.1080@0.0.1854.1080" timestamp="1611760374307" />
     <state width="1837" height="295" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1603215634876" />
-    <state width="1833" height="295" key="GridCell.Tab.0.left" timestamp="1611759455065">
+    <state width="1833" height="295" key="GridCell.Tab.0.left" timestamp="1611760374307">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="295" key="GridCell.Tab.0.left/0.0.1854.1080@0.0.1854.1080" timestamp="1611759455065" />
+    <state width="1833" height="295" key="GridCell.Tab.0.left/0.0.1854.1080@0.0.1854.1080" timestamp="1611760374307" />
     <state width="1837" height="295" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1603215634876" />
-    <state width="1833" height="295" key="GridCell.Tab.0.right" timestamp="1611759455065">
+    <state width="1833" height="295" key="GridCell.Tab.0.right" timestamp="1611760374307">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="295" key="GridCell.Tab.0.right/0.0.1854.1080@0.0.1854.1080" timestamp="1611759455065" />
+    <state width="1833" height="295" key="GridCell.Tab.0.right/0.0.1854.1080@0.0.1854.1080" timestamp="1611760374307" />
     <state width="1837" height="295" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1603215634876" />
     <state width="1833" height="364" key="GridCell.Tab.1.bottom" timestamp="1611242279057">
       <screen x="0" y="0" width="1854" height="1080" />
@@ -298,14 +307,14 @@
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
     <state x="747" y="251" key="RollbackChangesDialog/0.0.1854.1080@0.0.1854.1080" timestamp="1611677904636" />
-    <state x="105" y="228" key="SettingsEditor" timestamp="1611718675687">
+    <state x="105" y="228" key="SettingsEditor" timestamp="1611760079816">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state x="105" y="228" key="SettingsEditor/0.0.1854.1080@0.0.1854.1080" timestamp="1611718675687" />
-    <state x="519" y="273" key="Vcs.Push.Dialog.v2" timestamp="1611718733358">
+    <state x="105" y="228" key="SettingsEditor/0.0.1854.1080@0.0.1854.1080" timestamp="1611760079816" />
+    <state x="299" y="162" key="Vcs.Push.Dialog.v2" timestamp="1611759536906">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state x="519" y="273" key="Vcs.Push.Dialog.v2/0.0.1854.1080@0.0.1854.1080" timestamp="1611718733358" />
+    <state x="299" y="162" key="Vcs.Push.Dialog.v2/0.0.1854.1080@0.0.1854.1080" timestamp="1611759536906" />
     <state x="719" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611718691281">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
@@ -314,10 +323,10 @@
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
     <state x="711" y="331" key="git4idea.merge.GitPullDialog/0.0.1854.1080@0.0.1854.1080" timestamp="1611677856769" />
-    <state x="591" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1611240868294">
+    <state x="591" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1611760347789">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state x="591" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1854.1080@0.0.1854.1080" timestamp="1611240868294" />
+    <state x="591" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1854.1080@0.0.1854.1080" timestamp="1611760347789" />
     <state x="592" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1603213066826" />
   </component>
   <component name="XDebuggerManager">

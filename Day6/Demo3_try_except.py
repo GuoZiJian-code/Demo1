@@ -30,6 +30,14 @@ try:
 except Exception as e:
     print("处理所有异常")
 """
+"""
+try:
+    ...
+except:
+    ....
+finally:
+    ....
+-----------------------------------------------------------------
 try:
     file = open("./Demo1_os.py")
     file.write("就很尼玛离谱")
@@ -37,5 +45,40 @@ try:
 except Exception as e:
     print("错误为{0}".format(e))
     errorFile = open("Error.txt",mode="a",encoding="utf-8")
-    errorFile.write(str(e)+"\n")
+    errorFile.write(str(e)+r"\n")
     errorFile.close()
+finally:
+    print("不管你犯没犯错了，我最后还是会执行")
+"""
+"""
+try:
+    ....
+except:
+    ....
+else:
+    ....
+"""
+try:
+    file = open("./Demo1_os.py")
+    file.close()
+except Exception as e:
+    print("错误为{0}".format(e))
+    errorFile = open("Error.txt",mode="a",encoding="utf-8")
+    errorFile.write(str(e)+r"\n")
+    errorFile.close()
+else:
+    print("else的话，当try的代码体正常执行，else的代码体还是会正常执行当try代码提出现异常，else的代码体也会不进行执行")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
