@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c4c8ad7c-9ab9-42c2-b926-04c0e12e297d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day6/Demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day6/Demo3_try_except.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
       <recent name="D:\pythonWorkspace\Demo1\TestPac" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Demo2_homework">
+  <component name="RunManager" selected="Python.Demo3_try_except">
     <configuration name="Day5_homework" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Demo1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,27 +63,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day5/Day5_homework.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Demo1_import1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Demo1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day5/Demo1_import1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,13 +134,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Demo3_try_except" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Demo1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day6/Demo3_try_except.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Demo3_try_except" />
         <item itemvalue="Python.Demo2_homework" />
         <item itemvalue="Python.Demo1_os" />
         <item itemvalue="Python.Day5_homework" />
         <item itemvalue="Python.Demo2_File1" />
-        <item itemvalue="Python.Demo1_import1" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611678391463</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="测试Git">
+      <created>1611718727400</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611718727400</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,17 +238,18 @@
     <MESSAGE value="删除了Day6/Atest" />
     <MESSAGE value="新增Day6/Demo3" />
     <MESSAGE value="删除Day6/Demo3.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除Day6/Demo3.py" />
+    <MESSAGE value="测试Git" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试Git" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="657" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611242261020">
+    <state x="657" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611759320395">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state x="657" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1854.1080@0.0.1854.1080" timestamp="1611242261020" />
-    <state x="565" y="134" key="CommitChangelistDialog2" timestamp="1611678390501">
+    <state x="657" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1854.1080@0.0.1854.1080" timestamp="1611759320395" />
+    <state x="565" y="134" key="CommitChangelistDialog2" timestamp="1611718726435">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state x="565" y="134" key="CommitChangelistDialog2/0.0.1854.1080@0.0.1854.1080" timestamp="1611678390501" />
+    <state x="565" y="134" key="CommitChangelistDialog2/0.0.1854.1080@0.0.1854.1080" timestamp="1611718726435" />
     <state x="384" y="341" key="FileChooserDialogImpl" timestamp="1611676076757">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
@@ -249,25 +258,25 @@
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
     <state x="802" y="431" width="273" height="218" key="Github.ShareDialog/0.0.1854.1080@0.0.1854.1080" timestamp="1611677066869" />
-    <state width="1833" height="295" key="GridCell.Tab.0.bottom" timestamp="1611677889802">
+    <state width="1833" height="295" key="GridCell.Tab.0.bottom" timestamp="1611759455066">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="295" key="GridCell.Tab.0.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1611677889802" />
+    <state width="1833" height="295" key="GridCell.Tab.0.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1611759455066" />
     <state width="1837" height="295" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1603215634876" />
-    <state width="1833" height="295" key="GridCell.Tab.0.center" timestamp="1611677889801">
+    <state width="1833" height="295" key="GridCell.Tab.0.center" timestamp="1611759455065">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="295" key="GridCell.Tab.0.center/0.0.1854.1080@0.0.1854.1080" timestamp="1611677889801" />
+    <state width="1833" height="295" key="GridCell.Tab.0.center/0.0.1854.1080@0.0.1854.1080" timestamp="1611759455065" />
     <state width="1837" height="295" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1603215634876" />
-    <state width="1833" height="295" key="GridCell.Tab.0.left" timestamp="1611677889801">
+    <state width="1833" height="295" key="GridCell.Tab.0.left" timestamp="1611759455065">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="295" key="GridCell.Tab.0.left/0.0.1854.1080@0.0.1854.1080" timestamp="1611677889801" />
+    <state width="1833" height="295" key="GridCell.Tab.0.left/0.0.1854.1080@0.0.1854.1080" timestamp="1611759455065" />
     <state width="1837" height="295" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1603215634876" />
-    <state width="1833" height="295" key="GridCell.Tab.0.right" timestamp="1611677889801">
+    <state width="1833" height="295" key="GridCell.Tab.0.right" timestamp="1611759455065">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="295" key="GridCell.Tab.0.right/0.0.1854.1080@0.0.1854.1080" timestamp="1611677889801" />
+    <state width="1833" height="295" key="GridCell.Tab.0.right/0.0.1854.1080@0.0.1854.1080" timestamp="1611759455065" />
     <state width="1837" height="295" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1603215634876" />
     <state width="1833" height="364" key="GridCell.Tab.1.bottom" timestamp="1611242279057">
       <screen x="0" y="0" width="1854" height="1080" />
@@ -293,10 +302,10 @@
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
     <state x="105" y="228" key="SettingsEditor/0.0.1854.1080@0.0.1854.1080" timestamp="1611718675687" />
-    <state x="519" y="273" key="Vcs.Push.Dialog.v2" timestamp="1611678397020">
+    <state x="519" y="273" key="Vcs.Push.Dialog.v2" timestamp="1611718733358">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state x="519" y="273" key="Vcs.Push.Dialog.v2/0.0.1854.1080@0.0.1854.1080" timestamp="1611678397020" />
+    <state x="519" y="273" key="Vcs.Push.Dialog.v2/0.0.1854.1080@0.0.1854.1080" timestamp="1611718733358" />
     <state x="719" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611718691281">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
