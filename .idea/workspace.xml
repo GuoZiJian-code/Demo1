@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4c8ad7c-9ab9-42c2-b926-04c0e12e297d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day7/Demo2_homework-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day8/Demo1_classObject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day8/Demo1_homework-1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +50,8 @@
       <recent name="D:\pythonWorkspace\Demo1\TestPac" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Demo2_homework-2">
-    <configuration name="Day5_homework" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Demo1_homework-1">
+    <configuration name="Demo1_classObject" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Demo1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,11 +59,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day5/Day5_homework.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day8/Demo1_classObject.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -71,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Demo1_os" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo1_homework-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Demo1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day6/Demo1_os.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day8/Demo1_homework-1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Demo1_homework-1" />
+        <item itemvalue="Python.Demo1_classObject" />
         <item itemvalue="Python.Demo2_homework-2" />
         <item itemvalue="Python.Demo3_try_except" />
         <item itemvalue="Python.Demo2_homework" />
-        <item itemvalue="Python.Demo1_os" />
-        <item itemvalue="Python.Day5_homework" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611760640193</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Day7的作业2：冒泡排序">
+      <created>1611840089447</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611840089447</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,17 +273,18 @@
     <MESSAGE value="学习了异常处理" />
     <MESSAGE value="Day6学习结束" />
     <MESSAGE value="开始Day7的学习，第一节完成上节课的作业" />
-    <option name="LAST_COMMIT_MESSAGE" value="开始Day7的学习，第一节完成上节课的作业" />
+    <MESSAGE value="Day7的作业2：冒泡排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day7的作业2：冒泡排序" />
   </component>
   <component name="WindowStateProjectService">
     <state x="657" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611759320395">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
     <state x="657" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1854.1080@0.0.1854.1080" timestamp="1611759320395" />
-    <state x="74" y="90" key="CommitChangelistDialog2" timestamp="1611760637396">
+    <state x="74" y="90" key="CommitChangelistDialog2" timestamp="1611840088134">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state x="74" y="90" key="CommitChangelistDialog2/0.0.1854.1080@0.0.1854.1080" timestamp="1611760637396" />
+    <state x="74" y="90" key="CommitChangelistDialog2/0.0.1854.1080@0.0.1854.1080" timestamp="1611840088134" />
     <state x="384" y="341" key="FileChooserDialogImpl" timestamp="1611676076757">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
@@ -284,25 +293,25 @@
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
     <state x="802" y="431" width="273" height="218" key="Github.ShareDialog/0.0.1854.1080@0.0.1854.1080" timestamp="1611677066869" />
-    <state width="1833" height="295" key="GridCell.Tab.0.bottom" timestamp="1611760545917">
+    <state width="1833" height="295" key="GridCell.Tab.0.bottom" timestamp="1611847765576">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="295" key="GridCell.Tab.0.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1611760545917" />
+    <state width="1833" height="295" key="GridCell.Tab.0.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1611847765576" />
     <state width="1837" height="295" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1603215634876" />
-    <state width="1833" height="295" key="GridCell.Tab.0.center" timestamp="1611760545917">
+    <state width="1833" height="295" key="GridCell.Tab.0.center" timestamp="1611847765576">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="295" key="GridCell.Tab.0.center/0.0.1854.1080@0.0.1854.1080" timestamp="1611760545917" />
+    <state width="1833" height="295" key="GridCell.Tab.0.center/0.0.1854.1080@0.0.1854.1080" timestamp="1611847765576" />
     <state width="1837" height="295" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1603215634876" />
-    <state width="1833" height="295" key="GridCell.Tab.0.left" timestamp="1611760545917">
+    <state width="1833" height="295" key="GridCell.Tab.0.left" timestamp="1611847765575">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="295" key="GridCell.Tab.0.left/0.0.1854.1080@0.0.1854.1080" timestamp="1611760545917" />
+    <state width="1833" height="295" key="GridCell.Tab.0.left/0.0.1854.1080@0.0.1854.1080" timestamp="1611847765575" />
     <state width="1837" height="295" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1603215634876" />
-    <state width="1833" height="295" key="GridCell.Tab.0.right" timestamp="1611760545917">
+    <state width="1833" height="295" key="GridCell.Tab.0.right" timestamp="1611847765576">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="295" key="GridCell.Tab.0.right/0.0.1854.1080@0.0.1854.1080" timestamp="1611760545917" />
+    <state width="1833" height="295" key="GridCell.Tab.0.right/0.0.1854.1080@0.0.1854.1080" timestamp="1611847765576" />
     <state width="1837" height="295" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1603215634876" />
     <state width="1833" height="364" key="GridCell.Tab.1.bottom" timestamp="1611242279057">
       <screen x="0" y="0" width="1854" height="1080" />
@@ -328,10 +337,10 @@
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
     <state x="105" y="228" key="SettingsEditor/0.0.1854.1080@0.0.1854.1080" timestamp="1611760079816" />
-    <state x="12" y="115" key="Vcs.Push.Dialog.v2" timestamp="1611760649570">
+    <state x="12" y="115" key="Vcs.Push.Dialog.v2" timestamp="1611840096380">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state x="12" y="115" key="Vcs.Push.Dialog.v2/0.0.1854.1080@0.0.1854.1080" timestamp="1611760649570" />
+    <state x="12" y="115" key="Vcs.Push.Dialog.v2/0.0.1854.1080@0.0.1854.1080" timestamp="1611840096380" />
     <state x="719" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611718691281">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
@@ -340,10 +349,10 @@
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
     <state x="711" y="331" key="git4idea.merge.GitPullDialog/0.0.1854.1080@0.0.1854.1080" timestamp="1611677856769" />
-    <state x="591" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1611839917748">
+    <state x="591" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1611844008022">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state x="591" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1854.1080@0.0.1854.1080" timestamp="1611839917748" />
+    <state x="591" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1854.1080@0.0.1854.1080" timestamp="1611844008022" />
     <state x="592" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1603213066826" />
   </component>
   <component name="XDebuggerManager">
