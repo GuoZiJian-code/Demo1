@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4c8ad7c-9ab9-42c2-b926-04c0e12e297d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day8/Demo1_homework-2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day8/Demo2_homework.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day8/Demo2_init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day9/Demo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Demo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Demo1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day7/Demo1_homework-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day7/Demo1_homework-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day8/Demo1_homework-1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day8/Demo2_homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day8/Demo2_homework.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611847788450</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Day8学习（在家）">
+      <created>1612187964999</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612187964999</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,17 +293,18 @@
     <MESSAGE value="开始Day7的学习，第一节完成上节课的作业" />
     <MESSAGE value="Day7的作业2：冒泡排序" />
     <MESSAGE value="Day8学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day8学习" />
+    <MESSAGE value="Day8学习（在家）" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day8学习（在家）" />
   </component>
   <component name="WindowStateProjectService">
     <state x="657" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611759320395">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
     <state x="657" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1854.1080@0.0.1854.1080" timestamp="1611759320395" />
-    <state x="74" y="90" key="CommitChangelistDialog2" timestamp="1611847787411">
+    <state x="74" y="90" key="CommitChangelistDialog2" timestamp="1612187961878">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state x="74" y="90" key="CommitChangelistDialog2/0.0.1854.1080@0.0.1854.1080" timestamp="1611847787411" />
+    <state x="74" y="90" key="CommitChangelistDialog2/0.0.1854.1080@0.0.1854.1080" timestamp="1612187961878" />
     <state x="384" y="341" key="FileChooserDialogImpl" timestamp="1611676076757">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
@@ -306,22 +313,22 @@
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
     <state x="802" y="431" width="273" height="218" key="Github.ShareDialog/0.0.1854.1080@0.0.1854.1080" timestamp="1611677066869" />
-    <state width="1833" height="295" key="GridCell.Tab.0.bottom" timestamp="1612103115635">
+    <state width="1833" height="295" key="GridCell.Tab.0.bottom" timestamp="1612189467275">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="295" key="GridCell.Tab.0.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1612103115635" />
-    <state width="1833" height="295" key="GridCell.Tab.0.center" timestamp="1612103115635">
+    <state width="1833" height="295" key="GridCell.Tab.0.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1612189467275" />
+    <state width="1833" height="295" key="GridCell.Tab.0.center" timestamp="1612189467274">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="295" key="GridCell.Tab.0.center/0.0.1854.1080@0.0.1854.1080" timestamp="1612103115635" />
-    <state width="1833" height="295" key="GridCell.Tab.0.left" timestamp="1612103115635">
+    <state width="1833" height="295" key="GridCell.Tab.0.center/0.0.1854.1080@0.0.1854.1080" timestamp="1612189467274" />
+    <state width="1833" height="295" key="GridCell.Tab.0.left" timestamp="1612189467274">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="295" key="GridCell.Tab.0.left/0.0.1854.1080@0.0.1854.1080" timestamp="1612103115635" />
-    <state width="1833" height="295" key="GridCell.Tab.0.right" timestamp="1612103115635">
+    <state width="1833" height="295" key="GridCell.Tab.0.left/0.0.1854.1080@0.0.1854.1080" timestamp="1612189467274" />
+    <state width="1833" height="295" key="GridCell.Tab.0.right" timestamp="1612189467274">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="295" key="GridCell.Tab.0.right/0.0.1854.1080@0.0.1854.1080" timestamp="1612103115635" />
+    <state width="1833" height="295" key="GridCell.Tab.0.right/0.0.1854.1080@0.0.1854.1080" timestamp="1612189467274" />
     <state width="1833" height="364" key="GridCell.Tab.1.bottom" timestamp="1611242279057">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
@@ -338,18 +345,22 @@
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
     <state width="1833" height="364" key="GridCell.Tab.1.right/0.0.1854.1080@0.0.1854.1080" timestamp="1611242279057" />
+    <state x="636" y="256" key="MultipleFileMergeDialog" timestamp="1612188002982">
+      <screen x="0" y="0" width="1854" height="1080" />
+    </state>
+    <state x="636" y="256" key="MultipleFileMergeDialog/0.0.1854.1080@0.0.1854.1080" timestamp="1612188002982" />
     <state x="747" y="251" key="RollbackChangesDialog" timestamp="1611677904636">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
     <state x="747" y="251" key="RollbackChangesDialog/0.0.1854.1080@0.0.1854.1080" timestamp="1611677904636" />
-    <state x="105" y="228" key="SettingsEditor" timestamp="1611760079816">
+    <state x="105" y="228" key="SettingsEditor" timestamp="1612188020353">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state x="105" y="228" key="SettingsEditor/0.0.1854.1080@0.0.1854.1080" timestamp="1611760079816" />
-    <state x="12" y="115" key="Vcs.Push.Dialog.v2" timestamp="1611848041439">
+    <state x="105" y="228" key="SettingsEditor/0.0.1854.1080@0.0.1854.1080" timestamp="1612188020353" />
+    <state x="12" y="115" key="Vcs.Push.Dialog.v2" timestamp="1612187973396">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state x="12" y="115" key="Vcs.Push.Dialog.v2/0.0.1854.1080@0.0.1854.1080" timestamp="1611848041439" />
+    <state x="12" y="115" key="Vcs.Push.Dialog.v2/0.0.1854.1080@0.0.1854.1080" timestamp="1612187973396" />
     <state x="719" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611718691281">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
