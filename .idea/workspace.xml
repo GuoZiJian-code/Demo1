@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4c8ad7c-9ab9-42c2-b926-04c0e12e297d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day8/Demo2-extends.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Demo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Demo1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c4c8ad7c-9ab9-42c2-b926-04c0e12e297d" name="Default Changelist" comment="继承类学习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day8/Demo2-extends.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day8/Demo2-extends.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +41,8 @@
       <file leaf-file-name="Demo2-extends.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day8/Demo2-extends.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="276">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -320,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612151470164</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="继承类学习">
+      <created>1612161299542</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1612161299542</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -374,7 +379,8 @@
     <MESSAGE value="新增Day6/Demo3" />
     <MESSAGE value="删除Day6/Demo3.py" />
     <MESSAGE value="Default Changelist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+    <MESSAGE value="继承类学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="继承类学习" />
   </component>
   <component name="WindowStateProjectService">
     <state x="657" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611242261020">
@@ -493,8 +499,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day8/Demo2-extends.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="276">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
