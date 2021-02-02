@@ -28,3 +28,6 @@ if __name__ == '__main__':
     user = User("郭", "子健", "打篮球","程序猿")
     user.describe_user()
     user.greet_user("你好呀")
+
+
+
