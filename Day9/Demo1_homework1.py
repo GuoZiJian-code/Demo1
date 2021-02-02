@@ -32,21 +32,22 @@ class TicketCost:
 
 
 if __name__ == '__main__':
-    flag = "Y"
     ticketCostSum = 0
-    while flag.lower() == "y":
+    while True:
         day = input("请问所需要购买星期几的票：")
-        age = input("请问岁数：")
         if day.lower() == "q":
             print("当前需要总票费：{0}".format(ticketCostSum))
             print("退出")
             break
-        elif age.lower() == "q":
-            print("退出")
-            break
         else:
-            ticket = TicketCost(age=int(age), day=int(day))
-            ticketCost = ticket.TicketCostInWeekendOrWorkDay()
-            print("所需要购买的票价：{0}".format(ticketCost))
-            ticketCostSum += ticketCost
-            print("当前需要总票费：{0}".format(ticketCostSum))
+            age = input("请问岁数：")
+            if age.lower() == "q":
+                print("当前需要总票费：{0}".format(ticketCostSum))
+                print("退出")
+                break
+            else:
+                ticket = TicketCost(age=int(age), day=int(day))
+                ticketCost = ticket.TicketCostInWeekendOrWorkDay()
+                print("所需要购买的票价：{0}".format(ticketCost))
+                ticketCostSum += ticketCost
+                print("当前需要总票费：{0}".format(ticketCostSum))
