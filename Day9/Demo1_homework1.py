@@ -31,7 +31,8 @@ class TicketCost:
             return int(self.TicketCost())
 
 
-if __name__ == '__main__':
+if __name__ == '__m' \
+               'ain__':
     ticketCostSum = 0
     while True:
         day = input("请问所需要购买星期几的票：")
