@@ -41,5 +41,5 @@ class requestDemo1:
 
 
 if __name__ == '__main__':
-    rq1 = requestDemo1("http://polybzh.julytech.cn")
+    rq1 = requestDemo1(url="http://polybzh.julytech.cn")
     rq1.getUserInfo()
