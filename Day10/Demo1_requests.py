@@ -28,7 +28,6 @@ class requestDemo1:
         url = "{0}/back/authenticate".format(self.host)
         Json_Data = {"username": self.username, "password": self.password, "captcha": "12345", "randomStr": "123456"}
         headers = {"Content-Type": "application/json;charset=UTF-8"}
-        print(requests.post(url=url, json=Json_Data, headers=headers))
         return requests.post(url=url, json=Json_Data, headers=headers)
 
     # 通过登录获取的response获取用户信息
@@ -40,8 +39,9 @@ class requestDemo1:
         url = "{0}/back/userInfo".format(self.host)
         responseGetUserInfo = requests.get(url=url, headers=headers, cookies=response.cookies, verify=False)
         print(responseGetUserInfo.json()["userVo"])
+        print(responseGetUserInfo.cookies)
 
 
 if __name__ == '__main__':
-    rq1 = requestDemo1(host="http://polybzh.julytech.cn", username="admin", password="admin2020")
+    rq1 = requestDemo1(host="http://polybzh.julytech.cn", username="admin", password="000000")
     rq1.getUserInfo()
