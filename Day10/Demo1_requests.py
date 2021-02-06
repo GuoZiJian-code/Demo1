@@ -6,8 +6,10 @@ import requests
 
 
 class requestDemo1:
-    def __init__(self, host=None):
+    def __init__(self, username, password, host=None):
         self.host = host
+        self.username = username
+        self.password = password
 
     # get请求
     """
@@ -24,8 +26,9 @@ class requestDemo1:
     def login(self):
         # post请求 带参数
         url = "{0}/back/authenticate".format(self.host)
-        Json_Data = {"username": "admin", "password": "000000", "captcha": "12345", "randomStr": "123456"}
+        Json_Data = {"username": self.username, "password": self.password, "captcha": "12345", "randomStr": "123456"}
         headers = {"Content-Type": "application/json;charset=UTF-8"}
+        print(requests.post(url=url, json=Json_Data, headers=headers))
         return requests.post(url=url, json=Json_Data, headers=headers)
 
     # 通过登录获取的response获取用户信息
@@ -35,11 +38,10 @@ class requestDemo1:
         headers = {"Content-Type": "application/json;charset=UTF-8", 'Authorization': Authorization,
                    "Cookie": "theme=#409EFF; vue_admin_template_token={0}".format(Authorization)}
         url = "{0}/back/userInfo".format(self.host)
-        responseGetUserInfo = requests.get(url=url, headers=headers, cookies=response.cookies)
+        responseGetUserInfo = requests.get(url=url, headers=headers, cookies=response.cookies, verify=False)
         print(responseGetUserInfo.json()["userVo"])
-        print(responseGetUserInfo.headers)
 
 
 if __name__ == '__main__':
-    rq1 = requestDemo1(url="http://polybzh.julytech.cn")
+    rq1 = requestDemo1(host="http://polybzh.julytech.cn", username="admin", password="admin2020")
     rq1.getUserInfo()
