@@ -30,9 +30,10 @@ class runMath_MethodTestCase:
         loader = unittest.TestLoader()
         # 具体到某个功能的用例点
         # suite.addTest(loader.loadTestsFromTestCase(TestMathMethod_add))
+        suite.addTest(loader.loadTestsFromTestCase(TestMathMethod_add))
         # 具体到整个用例点
-        from Day10_requests import Demo2_unittest_TestCase
-        suite.addTest(loader.loadTestsFromModule(Demo2_unittest_TestCase))
+        # from Day10_requests import Demo2_unittest_TestCase
+        # suite.addTest(loader.loadTestsFromModule(Demo2_unittest_TestCase))
         runner = unittest.TextTestRunner()
         runner.run(suite)
 
