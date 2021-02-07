@@ -63,7 +63,7 @@ class loginTestCase(unittest.TestCase):
 
 
 class getUserInfoTestCase(unittest.TestCase):
-    def test_getAuthorization(self):
+    def getAuthorization(self):
         loginInfo_Json = {"username": "admin", "password": "000000", "captcha": "12345", "randomStr": "123456"}
         headers = {"Content-Type": "application/json;charset=UTF-8"}
         result = RequestUtil().requestMethod(url="http://polybzh.julytech.cn/back/authenticate",
@@ -71,7 +71,7 @@ class getUserInfoTestCase(unittest.TestCase):
         return result.json()["idToken"]
 
     def test_getUserInfoWithAuthorization(self):
-        authorization = self.test_getAuthorization()
+        authorization = self.getAuthorization()
         headers = {"Authorization":"Bearer {0}".format(authorization)}
         result = RequestUtil().requestMethod(method="Get", url="http://polybzh.julytech.cn/back/userInfo",
                                              headers=headers,
@@ -79,5 +79,7 @@ class getUserInfoTestCase(unittest.TestCase):
                                                       "vue_admin_template_token	": authorization})
         self.assertIsNotNone(result.json()['userVo'])
 
-    if __name__ == '__main__':
-        unittest.main
+    def test_getUserInfoWithoutAuthorization(self):
+        result = RequestUtil().requestMethod(method="Get", url="http://polybzh.julytech.cn/back/userInfo",
+                                             cookies={"theme": "#409EFF"})
+        self.assertIsNotNone(result.json()['userVo'])
