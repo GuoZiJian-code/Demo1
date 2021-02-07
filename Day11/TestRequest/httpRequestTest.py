@@ -52,6 +52,10 @@ class loginTestCase(unittest.TestCase):
                                              method="post", json=loginInfo_Json, headers=headers)
         self.assertEqual(40301, result.json()["code"], msg=result.json()["message"])
 
+    if __name__ == '__main__':
+        if __name__ == '__main__':
+            unittest.main
+
 
 """
 获取用户信息：1.已登录获取用户信息 2.未登录直接获取用户信息
@@ -59,6 +63,21 @@ class loginTestCase(unittest.TestCase):
 
 
 class getUserInfoTestCase(unittest.TestCase):
+    def test_getAuthorization(self):
+        loginInfo_Json = {"username": "admin", "password": "000000", "captcha": "12345", "randomStr": "123456"}
+        headers = {"Content-Type": "application/json;charset=UTF-8"}
+        result = RequestUtil().requestMethod(url="http://polybzh.julytech.cn/back/authenticate",
+                                             method="post", json=loginInfo_Json, headers=headers)
+        return result.json()["idToken"]
 
-    def getUserInfoWithAuthorization(self):
-        pass
+    def test_getUserInfoWithAuthorization(self):
+        authorization = self.test_getAuthorization()
+        headers = {"Authorization":"Bearer {0}".format(authorization)}
+        result = RequestUtil().requestMethod(method="Get", url="http://polybzh.julytech.cn/back/userInfo",
+                                             headers=headers,
+                                             cookies={"theme": "#409EFF",
+                                                      "vue_admin_template_token	": authorization})
+        self.assertIsNotNone(result.json()['userVo'])
+
+    if __name__ == '__main__':
+        unittest.main
