@@ -10,47 +10,94 @@
     4.使用任何一种用例加载执行用例
     5.生成HTML的测试报告
 """
+from requests import RequestException
 
 from Utils.requestUtil import RequestUtil
 import unittest
 
 
 class loginTestCase(unittest.TestCase):
+    def setUp(self):
+        print("首次执行用例（每条用例都执行一次）")
+
     # 输入正确的账号和密码
     def test_login_Correct_Input(self):
-        loginInfo_Json = {"username": "admin", "password": "000000", "captcha": "12345", "randomStr": "123456"}
-        headers = {"Content-Type": "application/json;charset=UTF-8"}
-        result = RequestUtil().requestMethod(url="http://polybzh.julytech.cn/back/authenticate",
-                                             method="post", json=loginInfo_Json, headers=headers)
-        # 预期结果
-        self.assertIsNotNone(result.json()["idToken"],
-                             msg="账号密码正确，成功获取idToken，且idToken不为空，获取的idToken={0}".format(result.json()["idToken"]))
+        try:
+            loginInfo_Json = {"username": "admin", "password": "000000", "captcha": "12345", "randomStr": "123456"}
+            headers = {"Content-Type": "application/json;charset=UTF-8"}
+            result = RequestUtil().requestMethod(url="http://polybzh.julytech.cn/back/authenticate",
+                                                 method="post", json=loginInfo_Json, headers=headers)
+            # 预期结果
+            self.assertIsNotNone(result.json()["idToken"],
+                                 msg="账号密码正确，成功获取idToken，且idToken不为空，获取的idToken={0}".format(result.json()["idToken"]))
+        except AssertionError as e:
+            print("未返回正确的userVo！目前为空，\n返回结果：{0}，\n异常结果：{1}".format(result.json(), e))
+            raise e
+        except RequestException as e:
+            print("请求异常，请查看请求代码")
+            raise e
+        except Exception as e:
+            print("出现异常情况", e)
+            raise e
 
     # 不输入账号
     def test_login_No_Username(self):
-        loginInfo_Json = {"password": "000000", "captcha": "12345", "randomStr": "123456"}
-        headers = {"Content-Type": "application/json;charset=UTF-8"}
-        result = RequestUtil().requestMethod(url="http://polybzh.julytech.cn/back/authenticate",
-                                             method="post", json=loginInfo_Json, headers=headers)
-        self.assertEqual(40001, result.json()["code"],
-                         msg="当未输入密码时候，接口返回code应为40001(int),目前为{0}".format(result.json()["code"]))
+        try:
+            loginInfo_Json = {"password": "000000", "captcha": "12345", "randomStr": "123456"}
+            headers = {"Content-Type": "application/json;charset=UTF-8"}
+            result = RequestUtil().requestMethod(url="http://polybzh.julytech.cn/back/authenticate",
+                                                 method="post", json=loginInfo_Json, headers=headers)
+            self.assertEqual(40001, result.json()["code"],
+                             msg="当未输入密码时候，接口返回code应为40001(int),目前为{0}".format(result.json()["code"]))
+        except AssertionError as e:
+            print("未返回正确的userVo！目前为空，返回结果：{0}，异常结果：{1}".format(result.json(), e))
+            raise e
+        except RequestException as e:
+            print("请求异常，请查看请求代码")
+            raise e
+        except Exception as e:
+            print("出现异常情况", e)
+            raise e
 
     # 不输入密码
     def test_login_No_Password(self):
-        loginInfo_Json = {"admin": "admin", "captcha": "12345", "randomStr": "123456"}
-        headers = {"Content-Type": "application/json;charset=UTF-8"}
-        result = RequestUtil().requestMethod(url="http://polybzh.julytech.cn/back/authenticate",
-                                             method="post", json=loginInfo_Json, headers=headers)
-        self.assertEqual(40001, result.json()["code"],
-                         msg="当未输入密码时候，接口返回code应为40001(int),目前为{0}".format(result.json()["code"]))
+        try:
+            loginInfo_Json = {"admin": "admin", "captcha": "12345", "randomStr": "123456"}
+            headers = {"Content-Type": "application/json;charset=UTF-8"}
+            result = RequestUtil().requestMethod(url="http://polybzh.julytech.cn/back/authenticate",
+                                                 method="post", json=loginInfo_Json, headers=headers)
+            self.assertEqual(400012, result.json()["code"],
+                             msg="当未输入密码时候，接口返回code应为40001(int),目前为{0}".format(result.json()["code"]))
+        except AssertionError as e:
+            print("未返回正确的userVo！目前为空，返回结果：{0}，异常结果：{1}".format(result.json(), e))
+            raise e
+        except RequestException as e:
+            print("请求异常，请查看请求代码")
+            raise e
+        except Exception as e:
+            print("出现异常情况", e)
+            raise e
 
     # 输入错误密码
     def test_login_ErrorPassword(self):
-        loginInfo_Json = {"username": "admin", "password": "123456", "captcha": "12345", "randomStr": "123456"}
-        headers = {"Content-Type": "application/json;charset=UTF-8"}
-        result = RequestUtil().requestMethod(url="http://polybzh.julytech.cn/back/authenticate",
-                                             method="post", json=loginInfo_Json, headers=headers)
-        self.assertEqual(40301, result.json()["code"], msg=result.json()["message"])
+        try:
+            loginInfo_Json = {"username": "admin", "password": "123456", "captcha": "12345", "randomStr": "123456"}
+            headers = {"Content-Type": "application/json;charset=UTF-8"}
+            result = RequestUtil().requestMethod(url="http://polybzh.julytech.cn/back/authenticate",
+                                                 method="post", json=loginInfo_Json, headers=headers)
+            self.assertEqual(40301, result.json()["code"], msg=result.json()["message"])
+        except AssertionError as e:
+            print("未返回正确的userVo！目前为空，返回结果：{0}，异常结果：{1}".format(result.json(), e))
+            raise e
+        except RequestException as e:
+            print("请求异常，请查看请求代码")
+            raise e
+        except Exception as e:
+            print("出现异常情况", e)
+            raise e
+
+    def tearDown(self):
+        print("每次执行用例结束后执行（每条用例都执行）")
 
     if __name__ == '__main__':
         if __name__ == '__main__':
@@ -71,15 +118,41 @@ class getUserInfoTestCase(unittest.TestCase):
         return result.json()["idToken"]
 
     def test_getUserInfoWithAuthorization(self):
-        authorization = self.getAuthorization()
-        headers = {"Authorization":"Bearer {0}".format(authorization)}
-        result = RequestUtil().requestMethod(method="Get", url="http://polybzh.julytech.cn/back/userInfo",
-                                             headers=headers,
-                                             cookies={"theme": "#409EFF",
-                                                      "vue_admin_template_token	": authorization})
-        self.assertIsNotNone(result.json()['userVo'])
+        try:
+            authorization = self.getAuthorization()
+            if authorization is None:
+                raise ValueError("参数异常，authorization为空值", authorization)
+            headers = {"Authorization": "Bearer {0}".format(authorization)}
+            result = RequestUtil().requestMethod(method="Get", url="http://polybzh.julytech.cn/back/userInfo",
+                                                 headers=headers,
+                                                 cookies={"theme": "#409EFF",
+                                                          "vue_admin_template_token	": authorization})
+
+            self.assertIsNotNone(result.json()['userVo'])
+        except AssertionError as e:
+            print("未返回正确的userVo！目前为空，返回结果：{0}，异常结果：{1}".format(result.json(), e))
+            raise e
+        except RequestException as e:
+            print("请求异常，请查看请求代码")
+            raise e
+        except Exception as e:
+            print("出现异常情况", e)
+            raise e
 
     def test_getUserInfoWithoutAuthorization(self):
-        result = RequestUtil().requestMethod(method="Get", url="http://polybzh.julytech.cn/back/userInfo",
-                                             cookies={"theme": "#409EFF"})
-        self.assertIsNotNone(result.json()['userVo'])
+        try:
+            result = RequestUtil().requestMethod(method="Get", url="http://polybzh.julytech.cn/back/userInfo",
+                                                 cookies={"theme": "#409EFF"})
+            self.assertIsNotNone(result.json()['userVo'])
+        except AssertionError as e:
+            print("未返回正确的userVo！目前为空，返回结果：{0}，异常结果：{1}".format(result.json(), e))
+            raise e
+        except RequestException as e:
+            print("请求异常，请查看请求代码")
+            raise e
+        except KeyError as e:
+            print("未返回正确的userVo！目前为空，返回结果：{0}，异常结果：{1}".format(result.json(), e))
+            raise e
+        except Exception as e:
+            print("出现异常情况", e)
+            raise e

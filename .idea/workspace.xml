@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4c8ad7c-9ab9-42c2-b926-04c0e12e297d" name="Default Changelist" comment="Day11学习（公司）">
+      <change afterPath="$PROJECT_DIR$/Day11/read_me.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day11/TestRequest/httpRequestTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/TestRequest/httpRequestTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day11/runHttpRequestTestCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/runHttpRequestTestCase.py" afterDir="false" />
@@ -14,13 +15,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="runHttpRequestTestCase.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="runHttpRequestTestCase.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day11/runHttpRequestTestCase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="73">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTMLTestReportCN.py" pinned="false" current-in-tab="true">
+        <entry file="file://E:/PythonIDE/python/Lib/HTMLTestReportCN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="1283" lean-forward="true" selection-start-line="1283" selection-end-line="1283" />
               <folding>
-                <element signature="e#73#88#0" expanded="true" />
+                <element signature="e#4430#4445#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -29,11 +39,20 @@
       <file leaf-file-name="httpRequestTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day11/TestRequest/httpRequestTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="345">
+              <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
               <folding>
-                <element signature="e#252#293#0" expanded="true" />
+                <element signature="e#251#288#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read_me.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day11/read_me.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -50,6 +69,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>test_getUserInfoWithAuthorization</find>
+      <find>test_getUserInfoWithoutAuthorization</find>
+      <find>-coding:utf-8</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -63,8 +84,10 @@
         <option value="$PROJECT_DIR$/Day11/httpRequestTest.py" />
         <option value="$PROJECT_DIR$/Day11/TestRequest/runHttpRequestTestCase.py" />
         <option value="E:/PythonIDE/python/Lib/site-packages/HtmlTestRunner/runner.py" />
+        <option value="$PROJECT_DIR$/Day11/read_me.py" />
         <option value="$PROJECT_DIR$/Day11/TestRequest/httpRequestTest.py" />
         <option value="$PROJECT_DIR$/Day11/runHttpRequestTestCase.py" />
+        <option value="E:/PythonIDE/python/Lib/HTMLTestReportCN.py" />
       </list>
     </option>
   </component>
@@ -97,18 +120,7 @@
             <path>
               <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_requests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo1" type="462c0819:PsiDirectoryNode" />
               <item name="Day11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="Day11" type="462c0819:PsiDirectoryNode" />
-              <item name="TestRequest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
@@ -657,7 +669,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612681224767</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Day11学习（公司）">
+      <created>1612682337945</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1612682337945</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -696,19 +715,19 @@
     <frame x="-8" y="-8" width="1873" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986537" />
       <window_info anchor="bottom" id="TODO" order="15" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50026923" side_tool="true" weight="0.32857144" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32959184" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49973074" weight="0.32959184" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49973074" visible="true" weight="0.39795917" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49973074" visible="true" weight="0.39795917" />
       <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986537" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24986537" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32959184" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="16" weight="0.32959184" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -871,20 +890,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/PythonIDE/python/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="320" selection-start-line="320" selection-end-line="320" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/urllib/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="845" selection-start-line="845" selection-end-line="845" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day8/Demo2_init.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -1192,16 +1197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day11/TestRequest/httpRequestTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="e#252#293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestReport/登录以及获取用户信息接口测试_2021-02-07_15_10_45.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1209,12 +1204,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day11/read_me.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11/TestRequest/httpRequestTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+          <folding>
+            <element signature="e#251#288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day11/runHttpRequestTestCase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="73">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/PythonIDE/python/Lib/HTMLTestReportCN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="1283" lean-forward="true" selection-start-line="1283" selection-end-line="1283" />
           <folding>
-            <element signature="e#73#88#0" expanded="true" />
+            <element signature="e#4430#4445#0" expanded="true" />
           </folding>
         </state>
       </provider>
