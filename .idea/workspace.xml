@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4c8ad7c-9ab9-42c2-b926-04c0e12e297d" name="Default Changelist" comment="Day11学习（公司）">
-      <change afterPath="$PROJECT_DIR$/Day11/read_me.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Demo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Demo1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day11/TestRequest/httpRequestTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/TestRequest/httpRequestTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day11/Demo2_Excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/Demo2_Excel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day11/runHttpRequestTestCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/runHttpRequestTestCase.py" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/venv/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,22 +18,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="runHttpRequestTestCase.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="runHttpRequestTestCase.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day11/runHttpRequestTestCase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="233">
+              <caret line="24" column="72" lean-forward="true" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+              <folding>
+                <element signature="e#1097#1994#1" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HTMLTestReportCN.py" pinned="false" current-in-tab="true">
-        <entry file="file://E:/PythonIDE/python/Lib/HTMLTestReportCN.py">
+      <file leaf-file-name="requestUtil.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Utils/requestUtil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="1283" lean-forward="true" selection-start-line="1283" selection-end-line="1283" />
+            <state relative-caret-position="221">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding>
-                <element signature="e#4430#4445#0" expanded="true" />
+                <element signature="e#75#107#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,11 +45,17 @@
       <file leaf-file-name="httpRequestTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day11/TestRequest/httpRequestTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
-              <folding>
-                <element signature="e#251#288#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Demo2_Excel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day11/Demo2_Excel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -51,8 +63,8 @@
       <file leaf-file-name="read_me.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day11/read_me.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -86,15 +98,16 @@
         <option value="E:/PythonIDE/python/Lib/site-packages/HtmlTestRunner/runner.py" />
         <option value="$PROJECT_DIR$/Day11/read_me.py" />
         <option value="$PROJECT_DIR$/Day11/TestRequest/httpRequestTest.py" />
-        <option value="$PROJECT_DIR$/Day11/runHttpRequestTestCase.py" />
         <option value="E:/PythonIDE/python/Lib/HTMLTestReportCN.py" />
+        <option value="$PROJECT_DIR$/Day11/Demo2_Excel.py" />
+        <option value="$PROJECT_DIR$/Day11/runHttpRequestTestCase.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
+    <option name="x" value="-10" />
     <option name="width" value="1400" />
-    <option name="height" value="1047" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectId" id="1XR43yrFgcdls0WC8k7yhAAVq7W" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -125,7 +138,14 @@
             <path>
               <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="TestReport" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="TestRequest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -142,7 +162,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="D:/test_tool/Python" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -161,275 +181,6 @@
       <recent name="D:\pythonWorkspace\Demo1\Day1\Test1Pac" />
       <recent name="D:\pythonWorkspace\Demo1\TestPac" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/Demo1.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Day9/Demo1_homework1.py</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Day10/Demo1_requests.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Day10/Demo2_unittest_TestCase.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Day10/Demo3_TestSuiteOrTestLoader.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Day10/Math_Methods.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Day10/TestReport.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Day11/Demo2_Excel.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Day11/httpRequestTest.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Utils/requestUtil.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/certifi-2020.12.5.dist-info/INSTALLER</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/certifi-2020.12.5.dist-info/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/certifi-2020.12.5.dist-info/METADATA</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/certifi-2020.12.5.dist-info/RECORD</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/certifi-2020.12.5.dist-info/WHEEL</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/certifi-2020.12.5.dist-info/top_level.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/certifi/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/certifi/__main__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/certifi/cacert.pem</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/certifi/core.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet-4.0.0.dist-info/INSTALLER</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet-4.0.0.dist-info/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet-4.0.0.dist-info/METADATA</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet-4.0.0.dist-info/RECORD</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet-4.0.0.dist-info/WHEEL</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet-4.0.0.dist-info/entry_points.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet-4.0.0.dist-info/top_level.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/big5freq.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/big5prober.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/chardistribution.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/charsetgroupprober.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/charsetprober.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/cli/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/cli/chardetect.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/codingstatemachine.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/compat.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/cp949prober.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/enums.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/escprober.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/escsm.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/eucjpprober.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/euckrfreq.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/euckrprober.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/euctwfreq.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/euctwprober.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/gb2312freq.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/gb2312prober.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/hebrewprober.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/jisfreq.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/jpcntx.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/langbulgarianmodel.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/langgreekmodel.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/langhebrewmodel.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/langhungarianmodel.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/langrussianmodel.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/langthaimodel.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/langturkishmodel.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/latin1prober.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/mbcharsetprober.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/mbcsgroupprober.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/mbcssm.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/metadata/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/metadata/languages.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/sbcharsetprober.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/sbcsgroupprober.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/sjisprober.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/universaldetector.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/utf8prober.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/chardet/version.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/idna-2.10.dist-info/INSTALLER</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/idna-2.10.dist-info/LICENSE.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/idna-2.10.dist-info/METADATA</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/idna-2.10.dist-info/RECORD</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/idna-2.10.dist-info/WHEEL</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/idna-2.10.dist-info/top_level.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/idna/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/idna/codec.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/idna/compat.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/idna/core.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/idna/idnadata.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/idna/intranges.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/idna/package_data.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/idna/uts46data.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests-2.25.1.dist-info/INSTALLER</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests-2.25.1.dist-info/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests-2.25.1.dist-info/METADATA</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests-2.25.1.dist-info/RECORD</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests-2.25.1.dist-info/WHEEL</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests-2.25.1.dist-info/top_level.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests/__version__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests/_internal_utils.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests/adapters.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests/api.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests/auth.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests/certs.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests/compat.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests/cookies.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests/exceptions.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests/help.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests/hooks.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests/models.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests/packages.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests/sessions.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests/status_codes.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests/structures.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/requests/utils.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.26.3.dist-info/INSTALLER</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.26.3.dist-info/LICENSE.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.26.3.dist-info/METADATA</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.26.3.dist-info/RECORD</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.26.3.dist-info/WHEEL</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.26.3.dist-info/top_level.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/_collections.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/_version.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connection.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connectionpool.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_appengine_environ.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/bindings.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/low_level.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/appengine.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/ntlmpool.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/pyopenssl.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/securetransport.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/socks.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/exceptions.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/fields.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/filepost.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/backports/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/backports/makefile.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/six.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/ssl_match_hostname/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/packages/ssl_match_hostname/_implementation.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/poolmanager.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/request.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/response.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/connection.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/proxy.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/queue.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/request.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/response.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/retry.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/ssl_.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/ssltransport.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/timeout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/url.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/wait.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/Scripts/chardetect.exe</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Day10_requests/Demo1_requests.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Day10_requests/Demo2_unittest_TestCase.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Day10_requests/Math_Methods.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Day11/Demo1.py</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -457,6 +208,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day5/Day5_homework.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Demo2_Excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Demo1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day11/Demo2_Excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -516,19 +285,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests for Day11.TestRequest.httpRequestTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Demo1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Day11.TestRequest.httpRequestTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
     <configuration name="Unittests in httpRequestTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Demo1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -546,17 +302,17 @@
       <item itemvalue="Python.Day5_homework" />
       <item itemvalue="Python.httpRequestTest" />
       <item itemvalue="Python tests.Unittests in httpRequestTest.py" />
-      <item itemvalue="Python tests.Unittests for Day11.TestRequest.httpRequestTest" />
       <item itemvalue="Python.requestUtil" />
       <item itemvalue="Python.runHttpRequestTestCase" />
+      <item itemvalue="Python.Demo2_Excel" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.runHttpRequestTestCase" />
+        <item itemvalue="Python.Demo2_Excel" />
         <item itemvalue="Python tests.Unittests in httpRequestTest.py" />
         <item itemvalue="Python.httpRequestTest" />
         <item itemvalue="Python.requestUtil" />
-        <item itemvalue="Python tests.Unittests for Day11.TestRequest.httpRequestTest" />
       </list>
     </recent_temporary>
   </component>
@@ -712,38 +468,27 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1873" height="1096" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="15" />
-      <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50026923" side_tool="true" weight="0.32857144" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49973074" weight="0.32959184" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49973074" visible="true" weight="0.39795917" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986537" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24986537" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32959184" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="16" weight="0.32959184" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986537" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19661458" />
       <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32959184" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Event Log" order="17" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="18" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.32959184" />
       <window_info anchor="bottom" id="Python Console" order="19" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32876712" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="18" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24986537" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32959184" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Messages" order="0" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -764,6 +509,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="上传workspace.xml" />
@@ -872,7 +620,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
@@ -954,34 +702,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/site-packages/selenium/webdriver/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/site-packages/selenium/webdriver/phantomjs/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-383">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/unittest/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="83" column="45" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/unittest/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="175" selection-start-line="175" selection-end-line="175" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/PythonIDE/python/Lib/site-packages/selenium/webdriver/__init__.py" />
+    <entry file="file://E:/PythonIDE/python/Lib/site-packages/selenium/webdriver/phantomjs/webdriver.py" />
+    <entry file="file://E:/PythonIDE/python/Lib/unittest/loader.py" />
+    <entry file="file://E:/PythonIDE/python/Lib/unittest/runner.py" />
     <entry file="file://$PROJECT_DIR$/Day8/Demo2_init.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -989,44 +713,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_requests/Math_Methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/unittest/suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_requests/Demo2_unittest_TestCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="24" column="81" selection-start-line="24" selection-start-column="81" selection-end-line="24" selection-end-column="81" />
-          <folding>
-            <element signature="e#65#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_requests/Demo1_requests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10_requests/Math_Methods.py" />
+    <entry file="file://E:/PythonIDE/python/Lib/unittest/suite.py" />
+    <entry file="file://$PROJECT_DIR$/Day10_requests/Demo2_unittest_TestCase.py" />
+    <entry file="file://$PROJECT_DIR$/Day10_requests/Demo1_requests.py" />
     <entry file="file://$PROJECT_DIR$/Day10_requests/Demo3_TestSuiteOrTestLoader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1012">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#79#94#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1059,181 +753,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/unittest/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/site-packages/requests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/site-packages/requests/sessions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="365" column="38" lean-forward="true" selection-start-line="365" selection-start-column="38" selection-end-line="365" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/site-packages/requests/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="820" selection-start-line="820" selection-end-line="820" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="592" selection-start-line="592" selection-end-line="592" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/abc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/site-packages/requests/structures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/_collections_abc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="765" selection-start-line="765" selection-end-line="765" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/site-packages/requests/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="446" column="44" lean-forward="true" selection-start-line="446" selection-start-column="44" selection-end-line="446" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/PythonIDE/python/Lib/unittest/main.py" />
+    <entry file="file://E:/PythonIDE/python/Lib/site-packages/requests/__init__.py" />
+    <entry file="file://E:/PythonIDE/python/Lib/site-packages/requests/api.py" />
+    <entry file="file://E:/PythonIDE/python/Lib/site-packages/requests/sessions.py" />
+    <entry file="file://E:/PythonIDE/python/Lib/site-packages/requests/utils.py" />
+    <entry file="file://E:/PythonIDE/python/Lib/unittest/case.py" />
+    <entry file="file://E:/PythonIDE/python/Lib/abc.py" />
+    <entry file="file://E:/PythonIDE/python/Lib/site-packages/requests/structures.py" />
+    <entry file="file://E:/PythonIDE/python/Lib/_collections_abc.py" />
+    <entry file="file://E:/PythonIDE/python/Lib/site-packages/requests/models.py" />
+    <entry file="file://$PROJECT_DIR$/Day11/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/TestReport/httpRequestTest_Report.html" />
+    <entry file="file://E:/PythonIDE/python/Lib/genericpath.py" />
+    <entry file="file://$PROJECT_DIR$/TestReport/登录以及获取用户信息接口测试_2021-02-07_14-54-04.html" />
+    <entry file="file://E:/PythonIDE/python/Lib/site-packages/HtmlTestRunner/result.py" />
+    <entry file="file://E:/PythonIDE/python/Lib/site-packages/HtmlTestRunner/__init__.py" />
+    <entry file="file://E:/PythonIDE/python/Lib/site-packages/HtmlTestRunner/runner.py" />
+    <entry file="file://$PROJECT_DIR$/TestReport/登录以及获取用户信息接口测试_2021-02-07_14_58_50.html" />
+    <entry file="file://$PROJECT_DIR$/TestReport/登录以及获取用户信息接口测试_2021-02-07_15_01_09.html" />
+    <entry file="file://$PROJECT_DIR$/TestReport/登录以及获取用户信息接口测试_2021-02-07_15_10_45.html" />
+    <entry file="file://E:/PythonIDE/python/Lib/HTMLTestReportCN.py" />
     <entry file="file://$PROJECT_DIR$/Utils/requestUtil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="221">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
             <element signature="e#75#107#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day11/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestReport/httpRequestTest_Report.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/genericpath.py">
+    <entry file="file://$PROJECT_DIR$/Day11/TestRequest/httpRequestTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="228">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day11/Demo2_Excel.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestReport/登录以及获取用户信息接口测试_2021-02-07_14-54-04.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/site-packages/HtmlTestRunner/result.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8878">
-          <caret line="402" column="35" selection-start-line="402" selection-start-column="35" selection-end-line="402" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/site-packages/HtmlTestRunner/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/site-packages/HtmlTestRunner/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestReport/登录以及获取用户信息接口测试_2021-02-07_14_58_50.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestReport/登录以及获取用户信息接口测试_2021-02-07_15_01_09.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="43" column="33" lean-forward="true" selection-start-line="20" selection-start-column="66" selection-end-line="51" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestReport/登录以及获取用户信息接口测试_2021-02-07_15_10_45.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="29" />
+        <state relative-caret-position="133">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day11/read_me.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11/TestRequest/httpRequestTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
-          <folding>
-            <element signature="e#251#288#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day11/runHttpRequestTestCase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/HTMLTestReportCN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="1283" lean-forward="true" selection-start-line="1283" selection-end-line="1283" />
+        <state relative-caret-position="233">
+          <caret line="24" column="72" lean-forward="true" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
           <folding>
-            <element signature="e#4430#4445#0" expanded="true" />
+            <element signature="e#1097#1994#1" />
           </folding>
         </state>
       </provider>
