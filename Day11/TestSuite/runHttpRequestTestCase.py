@@ -5,7 +5,7 @@
 import unittest
 import os
 import HTMLTestReportCN
-from Day11.TestRequest import httpRequestTest
+from Day11.TestCase import httpRequestTest
 import time
 
 
@@ -14,7 +14,9 @@ class runHttpRequestTestCase(httpRequestTest):
         # 第一种方法，全部用例一起加进去
         suite = unittest.TestSuite()
         loader = unittest.TestLoader()
-        suite.addTest(loader.loadTestsFromModule(httpRequestTest))
+        # 按顺序添加测试用例，避免说会丢失AUTHENTICATE
+        suite.addTest(loader.loadTestsFromTestCase(httpRequestTest.loginTestCase))
+        suite.addTest(loader.loadTestsFromTestCase(httpRequestTest.getUserInfoTestCase))
         try:
             # runner = HtmlTestRunner.HTMLTestRunner(output="E:\\PyProject\\Demo1\\TestReport", verbosity=2,
             #                                        combine_reports=True, report_name="登录以及获取用户信息接口测试").run(suite)
