@@ -2,11 +2,12 @@
 # Date：2021-02-05 15:11
 # Author：CP3
 
-from requests import RequestException
+
 from Utils.requestUtil import RequestUtil
 from Day11.TestParameters.GetData import GetData
 import unittest
-import json
+
+
 """
 测试用例之间的相似度很高，这个时候应该考虑用参数化的方式去做
 测试用例之间相似的点：1.请求路径 2.请求参数 3.断言（预期结果）
@@ -25,7 +26,7 @@ class loginTestCase(unittest.TestCase):
         try:
             print(self.requestUrl, self.requestMethod, self.requestData, self.responseExpected)
             # url, method, data=None, json=None, cookies=None, headers=None
-            result = RequestUtil().requestMethod(url=self.requestUrl, method=self.requestMethod, data=self.requestData,
+            result = RequestUtil().requestMethod(url=self.requestUrl, method=self.requestMethod, json=self.requestData,
                                                  headers={"Content-Type": "application/json;charset=UTF-8"})
             if "code" in result.json():
                 self.assertEqual(first=self.responseExpected, second=result.json()["code"],

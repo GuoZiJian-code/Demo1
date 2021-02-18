@@ -21,7 +21,7 @@ class runHttpRequestTestCase(httpRequestTest):
             # runner = HtmlTestRunner.HTMLTestRunner(output="E:\\PyProject\\Demo1\\TestReport", verbosity=2,
             #                                        combine_reports=True, report_name="登录以及获取用户信息接口测试").run(suite)
             with open(file="D:\\PythonWorkspace\\Demo1\\Day11\\TestReport\\登录以及获取用户信息接口测试{0}.html"
-                    .format(time.strftime("%Y-%m-%d_%H-%M-%S"),time.localtime()), mode="wb") as file:
+                   .format(time.strftime("%Y-%m-%d_%H-%M-%S"),time.localtime()), mode="wb") as file:
                 HTMLTestReportCN.HTMLTestRunner(stream=file, verbosity=2, title="登录以及获取用户信息接口测试",
                                                 description="登录以及获取用户信息接口测试{0}".format(time.strftime("%Y-%m-%d_%H-%M-%S"),time.localtime()),
                                                 tester="郭子健").run(suite)
