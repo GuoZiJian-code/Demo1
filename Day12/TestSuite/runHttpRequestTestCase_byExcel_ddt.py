@@ -7,7 +7,7 @@ import HTMLTestReportCN
 from Day12.TestCase.testAPI import TestAPI
 from Day12.doExcel import doExcelUtils
 
-test_data = doExcelUtils(fileName="C:\\Users\\ChriPaul\\Desktop\\TestData.xlsx", sheetName="Test").readExcel()
+test_data = doExcelUtils(fileName="C:\\Users\\Administrator\\Desktop\\TestData.xlsx", sheetName="Test").readExcel()
 
 
 # unittest+ddt+Excel
@@ -19,7 +19,7 @@ class runHttpRequestTestCase_3_byExcel:
     suite = unittest.TestSuite()
     loader = unittest.TestLoader()
     suite.addTest(loader.loadTestsFromTestCase(TestAPI))
-    with open(file="D:\PythonWorkspace\Demo1\Day11\TestReport\登录以及获取用户信息接口测试{0}.html".format(
+    with open(file="D:\pythonWorkspace\Demo1\Day11\TestReport\登录以及获取用户信息接口测试{0}.html".format(
             time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime())), mode="wb") as file:
         HTMLTestReportCN.HTMLTestRunner(stream=file, verbosity=2, title="登录接口测试报告",
                                         description="登录接口测试报告", tester="CP3").run(suite)

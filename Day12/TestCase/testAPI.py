@@ -9,7 +9,7 @@ from ddt import ddt, data
 from Day12.TestCase import GetUserInfoApiTest_parameterizeByDDT, LoginApiTest_parameterizeByDDT
 from Day12.doExcel import doExcelUtils
 
-test_data = doExcelUtils(fileName="C:\\Users\\ChriPaul\\Desktop\\TestData.xlsx", sheetName="Test").readExcel()
+test_data = doExcelUtils(fileName="C:\\Users\\Administrator\\Desktop\\TestData.xlsx", sheetName="Test").readExcel()
 
 
 @ddt
