@@ -18,7 +18,8 @@ class RequestUtil:
             elif method == "post":
                 response = requests.post(url=url, data=data, json=json, cookies=cookies, headers=headers)
             else:
-                response = requests.request(method=method,url=url, data=data, json=json, cookies=cookies, headers=headers)
+                response = requests.request(method=method, url=url, data=data, json=json, cookies=cookies,
+                                            headers=headers)
         except RequestException as e:
             print("请求失败：{0}".format(e))
         except JSONDecodeError as e:

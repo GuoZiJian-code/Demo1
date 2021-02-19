@@ -21,7 +21,3 @@ class doExcelUtils:
                 data_dict[sheet.cell(1, j).value] = sheet.cell(i, j).value
             data_list.append(data_dict)
         return data_list
-
-
-if __name__ == '__main__':
-    print(doExcelUtils(fileName="C:\\Users\\ChriPaul\\Desktop\\TestData.xlsx", sheetName="Test").readExcel())
