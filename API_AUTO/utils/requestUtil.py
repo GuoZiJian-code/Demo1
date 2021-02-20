@@ -9,12 +9,10 @@ from API_AUTO.utils.doConfigUtil import doConfigUtil
 
 class requestAPI:
     @staticmethod
-    def requestAPI(method, url, option, data=None, json_data=None,
+    def requestAPI(method, url, data=None, json_data=None,
                    headers={"Content-Type": "application/json;charset=UTF-8"}, verify=False):
         if not verify:
             requests.packages.urllib3.disable_warnings()
-        url = doConfigUtil.readConfig(filename="E:\PyProject\Demo1\API_AUTO\ConfigFile\TestConfig.conf",
-                                      section="url", option=option) + url
         if str(method).upper() == "POST":
             response = requests.post(url=url, data=data, json=json_data, headers=headers, verify=verify)
         elif str(method).upper() == "GET":
