@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4c8ad7c-9ab9-42c2-b926-04c0e12e297d" name="Default Changelist" comment="Day14学习（公司）">
-      <change afterPath="$PROJECT_DIR$/Demo13/Demo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c4c8ad7c-9ab9-42c2-b926-04c0e12e297d" name="Default Changelist" comment="Day14学习（公司）" />
     <list id="18efefd6-6d69-4486-bc43-a1fdd781b6ee" name="Day11学习（公司）" comment="">
       <change beforePath="$PROJECT_DIR$/API_AUTO/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTO/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API_AUTO/test_data/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTO/test_data/TestData.xlsx" afterDir="false" />
@@ -53,20 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/API_AUTO/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="368">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <folding>
+                <element signature="e#65#110#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demo1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Demo1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Demo13/Demo1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="23">
+              <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -127,8 +127,8 @@
         <option value="$PROJECT_DIR$/API_AUTO/utils/requestUtil.py" />
         <option value="$PROJECT_DIR$/API_AUTO/utils/ExcelUtil.py" />
         <option value="$PROJECT_DIR$/API_AUTO/test_data/getData.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/run.py" />
         <option value="$PROJECT_DIR$/Demo13/Demo1.py" />
+        <option value="$PROJECT_DIR$/API_AUTO/run.py" />
       </list>
     </option>
   </component>
@@ -153,6 +153,11 @@
             <path>
               <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Demo1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="API_AUTO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
@@ -17416,7 +17421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613813626731</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Day14学习（公司）">
+      <created>1613816925581</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1613816925581</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -17455,14 +17467,14 @@
     <frame x="-8" y="-8" width="1873" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2523161" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2523161" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5008174" side_tool="true" weight="0.39916405" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3291536" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49918255" weight="0.33751306" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49809265" weight="0.3291536" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49809265" visible="true" weight="0.3291536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -17888,6 +17900,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Demo13/Demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/API_AUTO/test_data/getData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -17897,15 +17916,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/API_AUTO/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo13/Demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="368">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#65#110#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
