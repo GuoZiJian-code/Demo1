@@ -31,5 +31,5 @@ class doExcelUtils:
             return final_list
 
 
-# if __name__ == '__main__':
-    # print(doExcelUtils(fileName="C:\\Users\\ChriPaul\\Desktop\\TestData.xlsx", sheetName="Test").readExcel())
+if __name__ == '__main__':
+    print(doExcelUtils(fileName="C:\\Users\\ChriPaul\\Desktop\\TestData.xlsx", sheetName="Test").readExcel())
