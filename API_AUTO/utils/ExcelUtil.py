@@ -2,6 +2,7 @@
 # @Time: 2021/02/18 23:26
 # @File: ExcelUtil.py
 
+import time
 from openpyxl import load_workbook
 from API_AUTO.utils.doConfigUtil import doConfigUtil
 from API_AUTO.utils.pathUtil import pathUtils
@@ -45,9 +46,9 @@ class do_Excel:
                 if sheet.cell(i, j).value == value:
                     return {"row": i, "column": j}
 
-    def writeExcel(self, column_name, case_id, write_value):
+    def writeExcel(self, column_name, row_name, write_value):
         value_column_location = self.getCellLocationByValue(column_name)
-        value_row_location = self.getCellLocationByValue(case_id)
+        value_row_location = self.getCellLocationByValue(row_name)
         if not value_column_location:
             print("Excel中无此列名")
             raise ValueError("Excel中无此列名")
@@ -61,4 +62,4 @@ class do_Excel:
 
 
 if __name__ == '__main__':
-    print(do_Excel(sheet_name="login").readExcel())
+    do_Excel(sheet_name="public").writeExcel(column_name="value", row_name="account", write_value="test{}".format(round(time.time() * 1000)))

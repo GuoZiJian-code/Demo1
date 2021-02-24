@@ -1,101 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4c8ad7c-9ab9-42c2-b926-04c0e12e297d" name="Default Changelist" comment="Day13学习（家）">
-      <change afterPath="$PROJECT_DIR$/API_AUTO/test_case/testCase_requestAPI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API_AUTO/utils/pathUtil.py" afterDir="false" />
+    <list default="true" id="c4c8ad7c-9ab9-42c2-b926-04c0e12e297d" name="Default Changelist" comment="Day13学习（公司）">
+      <change afterPath="$PROJECT_DIR$/API_AUTO/learn/Demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_AUTO/run1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTO/ConfigFile/TestConfig.conf" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTO/ConfigFile/TestConfig.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTO/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTO/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_AUTO/test_case/testCase_Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTO/test_case/testCase_Login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_AUTO/test_case/testCase_requestAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTO/test_case/testCase_requestAPI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API_AUTO/test_data/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTO/test_data/TestData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTO/utils/Day7/Demo1_homework-1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTO/utils/Day7/Demo2_homework-2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_AUTO/test_data/getData.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTO/test_data/getData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API_AUTO/utils/ExcelUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTO/utils/ExcelUtil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day12/doExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day12/doExcel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_AUTO/utils/pathUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTO/utils/pathUtil.py" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/venv/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API_AUTO/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-              <folding>
-                <element signature="e#65#88#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo1_ConfigParse.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day12/do_config/Demo1_ConfigParse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testCase_requestAPI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API_AUTO/test_case/testCase_requestAPI.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-              <folding>
-                <element signature="e#67#82#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExcelUtil.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API_AUTO/utils/ExcelUtil.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-              <folding>
-                <element signature="e#71#105#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="doExcel.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day12/doExcel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="doConfigUtil.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API_AUTO/utils/doConfigUtil.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestConfig.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API_AUTO/ConfigFile/TestConfig.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -123,111 +43,9 @@
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Utils/doConfigUtil.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/utils/doConfigUtil.py" />
-        <option value="$PROJECT_DIR$/Utils/doExcel.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/test_data/geiData.py" />
-        <option value="$PROJECT_DIR$/Utils/requestUtil.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/test_case/testCase_Register.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/test_case/testCase_Login.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/utils/requestUtil.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/utils/pathUtil.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/run.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/test_case/testCase_requestAPI.py" />
-        <option value="$PROJECT_DIR$/API_AUTO/ConfigFile/TestConfig.conf" />
-        <option value="$PROJECT_DIR$/API_AUTO/utils/ExcelUtil.py" />
-        <option value="$PROJECT_DIR$/Day12/doExcel.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1400" />
-    <option name="height" value="1050" />
-  </component>
   <component name="ProjectId" id="1XR43yrFgcdls0WC8k7yhAAVq7W" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="API_AUTO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="API_AUTO" type="462c0819:PsiDirectoryNode" />
-              <item name="ConfigFile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="API_AUTO" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="API_AUTO" type="462c0819:PsiDirectoryNode" />
-              <item name="test_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="API_AUTO" type="462c0819:PsiDirectoryNode" />
-              <item name="test_report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="API_AUTO" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="Day12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="Day12" type="462c0819:PsiDirectoryNode" />
-              <item name="do_config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="Day12" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="Day12" type="462c0819:PsiDirectoryNode" />
-              <item name="TestSuite" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -264,19 +82,7 @@
       <recent name="D:\pythonWorkspace\Demo1\Day1" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python.Demo1">
     <configuration name="Day5_homework" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Demo1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -294,6 +100,30 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Demo1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Demo1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_AUTO/learn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API_AUTO/learn/Demo1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="ExcelUtil" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Demo1" />
@@ -312,6 +142,30 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="getData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Demo1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_AUTO/test_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API_AUTO/test_data/getData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="pathUtil" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Demo1" />
@@ -330,24 +184,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="requestUtil" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Demo1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_AUTO/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API_AUTO/utils/requestUtil.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Demo1" />
@@ -366,35 +205,25 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Unittests for testCase_requestAPI.testCase_RequestAPI.test_RequestAPI" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Demo1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_AUTO/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testCase_requestAPI.testCase_RequestAPI.test_RequestAPI&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.Day5_homework" />
       <item itemvalue="Python.ExcelUtil" />
-      <item itemvalue="Python.requestUtil" />
       <item itemvalue="Python.run" />
-      <item itemvalue="Python tests.Unittests for testCase_requestAPI.testCase_RequestAPI.test_RequestAPI" />
       <item itemvalue="Python.pathUtil" />
+      <item itemvalue="Python.getData" />
+      <item itemvalue="Python.Demo1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Demo1" />
+        <item itemvalue="Python.getData" />
+        <item itemvalue="Python.ExcelUtil" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python.pathUtil" />
-        <item itemvalue="Python tests.Unittests for testCase_requestAPI.testCase_RequestAPI.test_RequestAPI" />
-        <item itemvalue="Python.ExcelUtil" />
-        <item itemvalue="Python.requestUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -577,51 +406,18 @@
       <configuration name="Unittests for testCase_requestAPI.testCase_RequestAPI.test_RequestAPI" configurationId="tests" />
     </history-entry>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24934895" />
-      <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
-      <window_info anchor="bottom" id="Python Console" order="11" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32876712" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39863014" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24986537" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32959184" />
-    </layout>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="上传workspace.xml" />
@@ -657,22 +453,22 @@
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
     <state x="802" y="431" width="273" height="218" key="Github.ShareDialog/0.0.1854.1080@0.0.1854.1080" timestamp="1611677066869" />
-    <state width="1816" height="237" key="GridCell.Tab.0.bottom" timestamp="1613662451768">
+    <state width="1833" height="294" key="GridCell.Tab.0.bottom" timestamp="1614180831086">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1816" height="237" key="GridCell.Tab.0.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1613662451768" />
-    <state width="1816" height="237" key="GridCell.Tab.0.center" timestamp="1613662451767">
+    <state width="1833" height="294" key="GridCell.Tab.0.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1614180831086" />
+    <state width="1833" height="294" key="GridCell.Tab.0.center" timestamp="1614180831086">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1816" height="237" key="GridCell.Tab.0.center/0.0.1854.1080@0.0.1854.1080" timestamp="1613662451767" />
-    <state width="1816" height="237" key="GridCell.Tab.0.left" timestamp="1613662451767">
+    <state width="1833" height="294" key="GridCell.Tab.0.center/0.0.1854.1080@0.0.1854.1080" timestamp="1614180831086" />
+    <state width="1833" height="294" key="GridCell.Tab.0.left" timestamp="1614180831085">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1816" height="237" key="GridCell.Tab.0.left/0.0.1854.1080@0.0.1854.1080" timestamp="1613662451767" />
-    <state width="1816" height="237" key="GridCell.Tab.0.right" timestamp="1613662451767">
+    <state width="1833" height="294" key="GridCell.Tab.0.left/0.0.1854.1080@0.0.1854.1080" timestamp="1614180831085" />
+    <state width="1833" height="294" key="GridCell.Tab.0.right" timestamp="1614180831086">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1816" height="237" key="GridCell.Tab.0.right/0.0.1854.1080@0.0.1854.1080" timestamp="1613662451767" />
+    <state width="1833" height="294" key="GridCell.Tab.0.right/0.0.1854.1080@0.0.1854.1080" timestamp="1614180831086" />
     <state width="1833" height="364" key="GridCell.Tab.1.bottom" timestamp="1612624836818">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
@@ -723,7 +519,6 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
@@ -745,257 +540,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://E:/PythonIDE/python/Lib/site-packages/requests/models.py" />
-    <entry file="file://$PROJECT_DIR$/Day11/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/TestReport/httpRequestTest_Report.html" />
-    <entry file="file://E:/PythonIDE/python/Lib/genericpath.py" />
-    <entry file="file://$PROJECT_DIR$/Day11/Demo2_Excel.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestReport/登录以及获取用户信息接口测试_2021-02-07_14-54-04.html" />
-    <entry file="file://E:/PythonIDE/python/Lib/site-packages/HtmlTestRunner/result.py" />
-    <entry file="file://E:/PythonIDE/python/Lib/site-packages/HtmlTestRunner/__init__.py" />
-    <entry file="file://E:/PythonIDE/python/Lib/site-packages/HtmlTestRunner/runner.py" />
-    <entry file="file://$PROJECT_DIR$/TestReport/登录以及获取用户信息接口测试_2021-02-07_14_58_50.html" />
-    <entry file="file://$PROJECT_DIR$/TestReport/登录以及获取用户信息接口测试_2021-02-07_15_01_09.html" />
-    <entry file="file://$PROJECT_DIR$/TestReport/登录以及获取用户信息接口测试_2021-02-07_15_10_45.html" />
-    <entry file="file://E:/PythonIDE/python/Lib/HTMLTestReportCN.py" />
-    <entry file="file://$PROJECT_DIR$/Day11/runHttpRequestTestCase.py" />
-    <entry file="file://$PROJECT_DIR$/Day11/TestRequest/httpRequestTest.py" />
-    <entry file="file://E:/PythonIDE/python/Lib/configparser.py" />
-    <entry file="file://$PROJECT_DIR$/Utils/doConfigUtil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11/read_me.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/doExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/unittest/case.py" />
-    <entry file="file://$PROJECT_DIR$/Day11/TestParameters/GetData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/site-packages/requests/api.py" />
-    <entry file="file://E:/PythonIDE/python/Lib/site-packages/requests/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Utils/requestUtil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/PythonIDE/python/Lib/site-packages/urllib3/connectionpool.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/643948248/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/Day11/TestCase/httpRequestTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2299">
-          <caret line="124" column="112" selection-start-line="124" selection-start-column="72" selection-end-line="124" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/test_data/getData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day12/TestCase/LoginApiTest_parameterizeByDDT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11/TestCase/httpRequestTest_2_parameterize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/test_case/testCase_Register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11/TestSuite/runHttpRequestTestCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11/TestSuite/runHttpRequestTestCase_3_byExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day1/Demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/pycharm/pythonJDK/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="632" selection-start-line="632" selection-end-line="632" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/test_case/testCase_Login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/pycharm/pythonJDK/Lib/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="624" column="8" selection-start-line="624" selection-start-column="8" selection-end-line="624" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day12/TestSuite/runHttpRequestTestCase_byExcel_ddt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <element signature="e#88#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/utils/requestUtil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="e#63#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/utils/pathUtil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day12/do_config/case.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day12/TestCase/GetUserInfoApiTest_parameterizeByDDT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="e#70#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day12/TestCase/testAPI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" selection-start-line="15" selection-end-line="16" />
-          <folding>
-            <element signature="e#55#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/utils/doConfigUtil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/ConfigFile/TestConfig.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/test_report/test_report_requestAPI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/utils/ExcelUtil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-          <folding>
-            <element signature="e#71#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="e#65#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day12/do_config/Demo1_ConfigParse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_AUTO/test_case/testCase_requestAPI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-          <folding>
-            <element signature="e#67#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day12/doExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
