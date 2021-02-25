@@ -10,9 +10,10 @@ class getData:
 
     @staticmethod
     def getData(sheet_name, key):
-        df = pd.read_excel(io=r"D:\pythonWorkspace\Demo1\API_AUTO\test_data\TestData.xlsx", sheet_name=sheet_name)
+        df = pd.read_excel(io=r"D:\PythonWorkspace\Demo1\API_AUTO\test_data\TestData.xlsx", sheet_name=sheet_name)
+        return df
 
 
 
 if __name__ == '__main__':
-    getData.getData(sheet_name="public", key="email")
+    print(getData.getData(sheet_name="public", key="email"))

@@ -32,7 +32,7 @@ class testCase_RequestAPI(unittest.TestCase):
             print(result.json())
             if result.json().get("idToken"):
                 setattr(getData, "Authorization", result.json().get("idToken"))
-            do_Excel(sheet_name="login").writeExcel(column_name="result", row_name=item["caseID"], write_value=result.text)
+            do_Excel(sheet_name="login").writeExcel(column_name="result",case_id=item["caseID"],write_value=result.text)
             self.assertEqual(item["expected"], result.json().get("code"))
         except Exception as e:
             print(e)
