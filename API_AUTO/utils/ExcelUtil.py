@@ -6,6 +6,7 @@ import time
 from openpyxl import load_workbook
 from API_AUTO.utils.doConfigUtil import doConfigUtil
 from API_AUTO.utils.pathUtil import pathUtils
+from API_AUTO.utils.LogUtil import LogUtils
 
 
 class do_Excel:
@@ -50,7 +51,7 @@ class do_Excel:
         value_column_location = self.getCellLocationByValue(column_name)
         value_row_location = self.getCellLocationByValue(row_name)
         if not value_column_location:
-            print("Excel中无此列名")
+            LogUtils().info(msg="Excel中无此列名")
             raise ValueError("Excel中无此列名")
         writeRow = value_row_location.get("row")
         writeColumn = value_column_location.get("column")

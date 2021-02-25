@@ -212,7 +212,7 @@ table       { font-size: 100%; }
                 innerSize: '80%',
                 name: '比例',
                 data: [
-                    ['通过', 2],
+                    ['通过', 3],
                     {
                         name: '失败',
                         y: 0,
@@ -347,9 +347,9 @@ function html_escape(s) {
 <div style="width: 650px; float: left;">
     <h1 style="font-family: Microsoft YaHei">requestAPI接口测试</h1>
     <p class='attribute'><strong>测试人员 : </strong> CP3</p>
-<p class='attribute'><strong>开始时间 : </strong> 2021-02-23 14:00:29</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.773930</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 2，通过 2，通过率 = 100.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2021-02-25 23:11:29</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.861676</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 3，通过 3，通过率 = 100.00%</p>
 <p class='attribute'><strong>失败用例合集 : </strong> <ol style='float: left;'>无</ol></p>
 <p class='attribute'><strong>错误用例合集 : </strong> <ol style='float: left;'>无</ol></p>
 
@@ -362,10 +362,10 @@ function html_escape(s) {
 <div style="width: 500px; clear: both;">
 <p id='show_detail_line'>
 <a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 2 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 3 }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
 <a class="btn btn-warning" href='javascript:showCase(3)'>错误{ 0 }</a>
-<a class="btn btn-info" href='javascript:showCase(4)'>所有{ 2 }</a>
+<a class="btn btn-info" href='javascript:showCase(4)'>所有{ 3 }</a>
 </p>
 </div>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
@@ -393,12 +393,12 @@ function html_escape(s) {
 <tr class='passClass warning'>
     <td>testCase_RequestAPI</td>
     <td></td>
-    <td class="text-center">2</td>
-    <td class="text-center">2</td>
+    <td class="text-center">3</td>
+    <td class="text-center">3</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
-    <td class="text-center">0.77秒</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c1',2)" class="detail" id='c1'>详细</a></td>
+    <td class="text-center">0.86秒</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',3)" class="detail" id='c1'>详细</a></td>
 </tr>
 
     <tr id='pt1_1' class='hiddenRow'>
@@ -413,8 +413,7 @@ function html_escape(s) {
         <div id='div_pt1_1' class="collapse in">
         <pre style="text-align:left">
         
-pt1_1: {'caseID': 'UserLogin_0001', 'module': 'UserLogin', 'precondition': '/', 'functionPoint': '用户登录', 'description': '使用正常数据', 'url': 'http://polybzh.julytech.cn/back/authenticate', 'method': 'POST', 'data': '{"username":"admin","password":"000000","captcha":"76798","randomStr":"9b252966-a8db-4467-9817-6c22fc56dcac"}', 'expected': None, 'result': '{"idToken":"eyJhbGciOiJIUzUxMiIsInppcCI6IkRFRiJ9.eNpMyksKgDAMANG7ZG3Batsk3qapChGV4gcE8e6KuHA5jzkhLzonzXGEBmI76QwFrLv8qjsyNDZYT56ZqACN2wuu_GDY9PlRAglyMMhUG4euN1wxGSLxySW0ghVcNwAAAP__.Ac4FsQaRAGP5L60MYLx5AjGpeS7Z24dIV6P6xr4MSlLICjYr_n9qis4PhRN8iatbSwi-WMxy3KEqg-pA2oDirw","expiresIn":1799999}'}
-{'idToken': 'eyJhbGciOiJIUzUxMiIsInppcCI6IkRFRiJ9.eNpMyksKgDAMANG7ZG0h0ZpWbxOthYiW4gcE8e6KuHA5jzkhL5p6zTJBCxJmTVDAune_Go4MLTHVnhErKkBle8HiB-Omz48UBqo4GBsdG8uMRsoGTe0oNs5GH0qB6wYAAP__.gn_7ze_OgOVZ7JgWjDc_WVGjO8OlnHico55R5JgZUPF9u0qYVSsa9GbgpG4l7vRNKVSRndJjGA4GLVgiF3903g', 'expiresIn': 1799999}
+pt1_1: Time:2021-02-25 23:11:29,583-level:INFO-LogUtil.py-[line:27]-API_AUTO-日志信息 : {'idToken': 'eyJhbGciOiJIUzUxMiIsInppcCI6IkRFRiJ9.eNpMikkKgDAMAP-Scwutxhr9TVMjRFSKCwji3xXx4GVghjkhLzonzXGEFmI36QwG1p1_JkeG1gcfXHhABjRub8DiC8Omz4-x5l4qsU3qkkUitEws1knliDkgNSVcNwAAAP__.aUqNjZNyztiYVGX-4bCa4e92ZC3OlMS86Lu2ZPzw9A1YNi8PBkwMHYHx2B6RLFx6ogsEOmPcHULdrAfu6AhCRw', 'expiresIn': 1799999}
 
 
         </pre>
@@ -435,8 +434,31 @@ pt1_1: {'caseID': 'UserLogin_0001', 'module': 'UserLogin', 'precondition': '/', 
         <div id='div_pt1_2' class="collapse in">
         <pre style="text-align:left">
         
-pt1_2: {'caseID': 'UserLogin_0002', 'module': 'UserLogin', 'precondition': '/', 'functionPoint': '用户登录', 'description': '不输入账号', 'url': 'http://polybzh.julytech.cn/back/authenticate', 'method': 'POST', 'data': '{"username":"","password":"000000","captcha":"76798","randomStr":"9b252966-a8db-4467-9817-6c22fc57dcac"}', 'expected': 40001, 'result': None}
-{'code': 40001, 'message': None, 'data': [{'field': 'username', 'message': 'must not be empty'}]}
+pt1_2: Time:2021-02-25 23:11:29,819-level:INFO-LogUtil.py-[line:27]-API_AUTO-日志信息 : {'code': 40001, 'message': None, 'data': [{'field': 'username', 'message': 'must not be empty'}]}
+Time:2021-02-25 23:11:29,819-level:INFO-LogUtil.py-[line:27]-API_AUTO-日志信息 : {'code': 40001, 'message': None, 'data': [{'field': 'username', 'message': 'must not be empty'}]}
+
+
+        </pre>
+        </div>
+        </td>
+        <td class='passCase' style="vertical-align: middle"></td>
+    </tr>
+    
+    <tr id='pt1_3' class='hiddenRow'>
+        <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_RequestAPI_3</div></td>
+        <td style="vertical-align: middle"></td>
+        <td colspan='5' align='center'>
+        <!--默认收起错误信息 -Findyou
+        <button id='btn_pt1_3' type="button"  class="btn btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_3'>通过</button>
+        <div id='div_pt1_3' class="collapse">  -->
+        <!-- 默认展开错误信息 -Findyou /  修复失败按钮的颜色 -- Gelomen -->
+        <button id='btn_pt1_3' type="button"  class="btn btn-xs" data-toggle="collapse" data-target='#div_pt1_3'>通过</button>
+        <div id='div_pt1_3' class="collapse in">
+        <pre style="text-align:left">
+        
+pt1_3: Time:2021-02-25 23:11:30,053-level:INFO-LogUtil.py-[line:27]-API_AUTO-日志信息 : {'code': 40001, 'message': None, 'data': [{'field': 'password', 'message': 'must not be empty'}]}
+Time:2021-02-25 23:11:30,053-level:INFO-LogUtil.py-[line:27]-API_AUTO-日志信息 : {'code': 40001, 'message': None, 'data': [{'field': 'password', 'message': 'must not be empty'}]}
+Time:2021-02-25 23:11:30,053-level:INFO-LogUtil.py-[line:27]-API_AUTO-日志信息 : {'code': 40001, 'message': None, 'data': [{'field': 'password', 'message': 'must not be empty'}]}
 
 
         </pre>
@@ -447,11 +469,11 @@ pt1_2: {'caseID': 'UserLogin_0002', 'module': 'UserLogin', 'precondition': '/', 
     
 <tr id='total_row' class="text-center active">
     <td colspan='2'>总计</td>
-    <td>2</td>
-    <td>2</td>
+    <td>3</td>
+    <td>3</td>
     <td>0</td>
     <td>0</td>
-    <td>0.77秒</td>
+    <td>0.86秒</td>
     <td>通过率：100.00%</td>
 </tr>
 </table>
