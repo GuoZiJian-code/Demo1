@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4c8ad7c-9ab9-42c2-b926-04c0e12e297d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/API_AUTO/learn/loggingTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API_AUTO/utils/LogUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_AUTO/learn/test_data/TestData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_AUTO/test_data/TestData_Parameterist.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTO/ConfigFile/TestConfig.conf" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTO/ConfigFile/TestConfig.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTO/learn/Demo1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTO/test_case/testCase_requestAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTO/test_case/testCase_requestAPI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTO/test_data/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTO/test_data/TestData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTO/test_data/getData.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTO/test_data/getData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_AUTO/test_report/test_report_requestAPI.html" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTO/test_report/test_report_requestAPI.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API_AUTO/utils/ExcelUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_AUTO/utils/ExcelUtil.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,21 +53,21 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\pythonWorkspace\Demo1\API_AUTO\learn" />
-      <recent name="D:\pythonWorkspace\Demo1\API_AUTO\test_data" />
-      <recent name="D:\PythonWorkspace\Demo1\Day11\TestSuite" />
-      <recent name="E:\PyProject\Demo1\Day11" />
-      <recent name="E:\PyProject\Demo1\Day11\TestRequest" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PythonWorkspace\Demo1\Day12\TestCase" />
       <recent name="D:\PythonWorkspace\Demo1\Day12\TestSuite" />
       <recent name="D:\PythonWorkspace\Demo1\Day12" />
       <recent name="D:\PythonWorkspace\Demo1\Day11\TestRequest" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pythonWorkspace\Demo1\API_AUTO\test_data" />
+      <recent name="D:\pythonWorkspace\Demo1\API_AUTO\learn\test_data" />
+      <recent name="D:\pythonWorkspace\Demo1\API_AUTO\learn" />
+      <recent name="D:\PythonWorkspace\Demo1\Day11\TestSuite" />
+      <recent name="E:\PyProject\Demo1\Day11" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python.Demo1_pandas">
     <configuration name="Day5_homework" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Demo1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,6 +110,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Demo1_pandas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Demo1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_AUTO/learn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API_AUTO/learn/Demo1_pandas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="LogUtil" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Demo1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,27 +144,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API_AUTO/utils/LogUtil.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="getData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Demo1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_AUTO/test_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API_AUTO/test_data/getData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,19 +196,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.Day5_homework" />
-      <item itemvalue="Python.run" />
-      <item itemvalue="Python.getData" />
       <item itemvalue="Python.Demo1_numpy (1)" />
-      <item itemvalue="Python.loggingTest" />
+      <item itemvalue="Python.Demo1_pandas" />
       <item itemvalue="Python.LogUtil" />
+      <item itemvalue="Python.loggingTest" />
+      <item itemvalue="Python.run" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Demo1_pandas" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python.LogUtil" />
         <item itemvalue="Python.loggingTest" />
         <item itemvalue="Python.Demo1_numpy (1)" />
-        <item itemvalue="Python.getData" />
       </list>
     </recent_temporary>
   </component>
@@ -362,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613730649319</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Day17学习（家）">
+      <created>1614266889114</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1614266889114</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -393,7 +394,8 @@
     <MESSAGE value="Day11学习（家）" />
     <MESSAGE value="Day12学习（家）" />
     <MESSAGE value="Day13学习（公司）" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day13学习（公司）" />
+    <MESSAGE value="Day17学习（家）" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day17学习（家）" />
   </component>
   <component name="WindowStateProjectService">
     <state x="657" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611242261020">
@@ -412,22 +414,22 @@
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
     <state x="802" y="431" width="273" height="218" key="Github.ShareDialog/0.0.1854.1080@0.0.1854.1080" timestamp="1611677066869" />
-    <state width="1833" height="294" key="GridCell.Tab.0.bottom" timestamp="1614265887588">
+    <state width="1833" height="294" key="GridCell.Tab.0.bottom" timestamp="1614611893966">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="294" key="GridCell.Tab.0.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1614265887588" />
-    <state width="1833" height="294" key="GridCell.Tab.0.center" timestamp="1614265887588">
+    <state width="1833" height="294" key="GridCell.Tab.0.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1614611893966" />
+    <state width="1833" height="294" key="GridCell.Tab.0.center" timestamp="1614611893966">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="294" key="GridCell.Tab.0.center/0.0.1854.1080@0.0.1854.1080" timestamp="1614265887588" />
-    <state width="1833" height="294" key="GridCell.Tab.0.left" timestamp="1614265887588">
+    <state width="1833" height="294" key="GridCell.Tab.0.center/0.0.1854.1080@0.0.1854.1080" timestamp="1614611893966" />
+    <state width="1833" height="294" key="GridCell.Tab.0.left" timestamp="1614611893966">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="294" key="GridCell.Tab.0.left/0.0.1854.1080@0.0.1854.1080" timestamp="1614265887588" />
-    <state width="1833" height="294" key="GridCell.Tab.0.right" timestamp="1614265887588">
+    <state width="1833" height="294" key="GridCell.Tab.0.left/0.0.1854.1080@0.0.1854.1080" timestamp="1614611893966" />
+    <state width="1833" height="294" key="GridCell.Tab.0.right" timestamp="1614611893966">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state width="1833" height="294" key="GridCell.Tab.0.right/0.0.1854.1080@0.0.1854.1080" timestamp="1614265887588" />
+    <state width="1833" height="294" key="GridCell.Tab.0.right/0.0.1854.1080@0.0.1854.1080" timestamp="1614611893966" />
     <state width="1833" height="362" key="GridCell.Tab.1.bottom" timestamp="1614263437749">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
@@ -464,10 +466,10 @@
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
     <state x="711" y="331" key="git4idea.merge.GitPullDialog/0.0.1854.1080@0.0.1854.1080" timestamp="1611677856769" />
-    <state x="591" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1614263197484">
+    <state x="591" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1614607875057">
       <screen x="0" y="0" width="1854" height="1080" />
     </state>
-    <state x="591" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1854.1080@0.0.1854.1080" timestamp="1614263197484" />
+    <state x="591" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1854.1080@0.0.1854.1080" timestamp="1614607875057" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

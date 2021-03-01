@@ -3,6 +3,7 @@
 # @File: ExcelUtil.py
 
 import time
+import pandas as pd
 from openpyxl import load_workbook
 from API_AUTO.utils.doConfigUtil import doConfigUtil
 from API_AUTO.utils.pathUtil import pathUtils
@@ -58,8 +59,14 @@ class do_Excel:
         sheet = self.workbook[self.sheet_name]
         sheet.cell(writeRow, writeColumn).value = write_value
         self.workbook.save(
-            filename=doConfigUtil.readConfig(filename=r"D:\PythonWorkspace\Demo1\API_AUTO\ConfigFile\TestConfig.conf",
+            filename=doConfigUtil.readConfig(filename=pathUtils.pathApi(file_paths=["ConfigFile","TestConfig.conf"]),
                                              section="Excel", option="path"))
+
+    def readExcel_byPandas(self,filepaths,sheet_name):
+        return pd.read_excel(io=pathUtils.pathApi(file_paths=filepaths),sheet_name=sheet_name,header=True)
+
+    def writeExcel_byPandas(self):
+        pass
 
 
 if __name__ == '__main__':
