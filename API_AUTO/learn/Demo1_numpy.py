@@ -13,7 +13,7 @@ from API_AUTO.utils.pathUtil import pathUtils
 # print("Done!")
 
 # 读取一个Excel
-df = pd.read_excel(io=pathUtils.pathApi(file_paths=["test_data", "TestData.xlsx"]), index_col="caseID")
-print(df.dtypes)
+df = pd.read_excel(io=pathUtils.pathApi(file_paths=["test_data", "TestData.xlsx"]), index_col="caseID").ix[0,0]
+print(df)
 
 

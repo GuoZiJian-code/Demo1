@@ -3,10 +3,21 @@
 # Author：CP3
 
 import pandas as pd
+from API_AUTO.utils.pathUtil import pathUtils
 
 
 class getData:
     Authorization = None
+
+    admin_username = pd.read_excel(io=pathUtils.pathApi(file_paths=["test_data","TestData_Parameterist.xlsx"]),sheet_name="parameters",index_col="Key").loc['admin_username','Value']
+    admin_password = pd.read_excel(io=pathUtils.pathApi(file_paths=["test_data","TestData_Parameterist.xlsx"]),sheet_name="parameters",index_col="Key").loc['admin_password','Value']
+
+    real_name = pd.read_excel(io=pathUtils.pathApi(file_paths=["test_data","TestData_Parameterist.xlsx"]),sheet_name="parameters",index_col="Key").loc['real_name','Value']
+    email = pd.read_excel(io=pathUtils.pathApi(file_paths=["test_data","TestData_Parameterist.xlsx"]),sheet_name="parameters",index_col="Key").loc["email","Value"]
+    mobile = pd.read_excel(io=pathUtils.pathApi(file_paths=["test_data","TestData_Parameterist.xlsx"]),sheet_name="parameters",index_col="Key").loc["mobile","Value"]
+    password = pd.read_excel(io=pathUtils.pathApi(file_paths=["test_data","TestData_Parameterist.xlsx"]),sheet_name="parameters",index_col="Key").loc["password","Value"]
+    companyId = pd.read_excel(io=pathUtils.pathApi(file_paths=["test_data","TestData_Parameterist.xlsx"]),sheet_name="parameters",index_col="Key").loc["companyId","Value"]
+    account = pd.read_excel(io=pathUtils.pathApi(file_paths=["test_data","TestData_Parameterist.xlsx"]),sheet_name="parameters",index_col="Key").loc["account","Value"]
 
     @staticmethod
     def getData(sheet_name, key):
@@ -16,4 +27,4 @@ class getData:
 
 
 if __name__ == '__main__':
-    print(getData.getData(sheet_name="public", key="email"))
+    print(getattr(getData,"username"))
