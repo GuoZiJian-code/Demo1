@@ -17,7 +17,7 @@ def run(test_data, sheet_name):
         result = requestAPI.requestAPI(method=item["method"], url=item["url"], json_data=eval(item["data"]),
                                        headers=headers)
         # column_name, case_id, write_value
-        do_Excel(sheet_name=sheet_name).writeExcel(column_name="result", row_name=item["caseID"],
+        do_Excel(sheet_name=sheet_name).writeExcel(sheet_name=sheet_name,column_name="result", row_name=item["caseID"],
                                                    write_value=result.text)
         # 当result中存在idToken则利用反射将idToken赋值给Authorization
         if result.json().get("idToken"):

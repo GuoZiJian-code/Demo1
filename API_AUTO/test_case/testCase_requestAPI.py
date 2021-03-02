@@ -9,7 +9,7 @@ from API_AUTO.utils.ExcelUtil import do_Excel
 from API_AUTO.utils.LogUtil import LogUtils
 from ddt import ddt, data
 
-test_data = do_Excel(sheet_name="login").readExcel()
+test_data = do_Excel(sheet_name="register").readExcel()
 
 
 @ddt
@@ -32,7 +32,7 @@ class testCase_RequestAPI(unittest.TestCase):
             LogUtils().info(result.json())
             if result.json().get("idToken"):
                 setattr(getData, "Authorization", result.json().get("idToken"))
-            do_Excel(sheet_name="login").writeExcel(column_name="result",row_name=item["caseID"],write_value=result.text)
+            do_Excel(sheet_name="register").writeExcel(sheet_name="register",column_name="result",row_name=item["caseID"],write_value=result.text)
             self.assertEqual(item["expected"], result.json().get("code"))
         except AssertionError as e:
             LogUtils().error(msg=e)

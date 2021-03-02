@@ -76,11 +76,12 @@ class do_Excel:
                                                       "test{0}".format(time.strftime("%y%m%d%H%M%S", time.localtime())))
                     self.writeExcel(sheet_name="parameters", column_name="Value", row_name=item,
                                     write_value="test{0}".format(time.strftime("%y%m%d%H%M%S", time.localtime())))
+                # 邮箱替换
                 elif "test" in str(getattr(getData, item)) and "@" in str(getattr(getData, item)):
                     result_list = result_list.replace("${" + item + "}",
-                                                      "test{0}@test.com".format(time.strftime("%y%m%d%H%M%S", time.localtime())))
+                                                      "{0}@test.com".format(time.strftime("%m%d%H%M%S", time.localtime())))
                     self.writeExcel(sheet_name="parameters", column_name="Value", row_name=item,
-                                    write_value="test{0}@test.com".format(time.strftime("%y%m%d%H%M%S", time.localtime())))
+                                    write_value="{0}@test.com".format(time.strftime("%m%d%H%M%S", time.localtime())))
                 # 特殊字段进行判断
                 elif item == "mobile":
                     result_list = result_list.replace("${" + item + "}",
